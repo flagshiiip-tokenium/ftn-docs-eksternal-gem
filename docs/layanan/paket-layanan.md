@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: "Paket Layanan"
 description: "Paket Starter dan Custom untuk perlindungan produk brand."
 ---
@@ -19,7 +19,7 @@ Fitur:
 
 - QR code unik pada tiap stiker
 - Verifikasi keaslian berbasis blockchain
-- Scan melalui aplikasi (Android dan iOS)
+- Scan melalui aplikasi konsumen Flagshiiip
 - Dashboard monitoring (scan, lokasi, aktivitas)
 - Sertifikat produk asli atau terverifikasi
 - Anti-duplikasi (satu QR hanya dapat diklaim satu kali)
@@ -50,6 +50,6 @@ Mencakup semua fitur Starter, ditambah:
 
 Ingin memulai? Lihat [Onboarding Brand](./onboarding-brand.md).
 
-:::caution[Perlu verifikasi tim]
-Pastikan harga dan minimum order memang boleh dipublikasikan di dokumentasi, dan masih berlaku saat dokumentasi diterbitkan.
+:::tip[Konsultasi & Penawaran Khusus]
+Rincian harga, minimum pemesanan stiker, dan spesifikasi integrasi kemasan dapat disesuaikan dengan volume produksi brand Anda. Kunjungi [flagshiiip.com](https://flagshiiip.com) untuk berkonsultasi langsung dengan tim kemitraan Flagshiiip.
 :::

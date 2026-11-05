@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/facebook/docusaurus"
   },
   "copyright": {
-    "message": "Copyright © 2026 PT BMG Capital Technology.",
+    "message": "Copyright © 2026 Flagshiiip & PT BMG Capital Technology. All rights reserved.",
     "description": "The footer copyright"
   },
   "link.title.Dokumentasi": {
@@ -66,5 +66,53 @@
   "link.item.label.flagshiiip.io": {
     "message": "flagshiiip.io",
     "description": "The label of footer link with label=flagshiiip.io linking to https://flagshiiip.io"
+  },
+  "link.title.Bantuan": {
+    "message": "Help & Support",
+    "description": "The title of the footer links column with title=Bantuan in the footer"
+  },
+  "link.title.Kebijakan & Keamanan": {
+    "message": "Policy & Security",
+    "description": "The title of the footer links column with title=Kebijakan & Keamanan in the footer"
+  },
+  "link.title.Ekosistem Flagshiiip": {
+    "message": "Flagshiiip Ecosystem",
+    "description": "The title of the footer links column with title=Ekosistem Flagshiiip in the footer"
+  },
+  "link.item.label.Mulai Cepat": {
+    "message": "Quick Start",
+    "description": "The label of footer link with label=Mulai Cepat linking to /docs/mulai-cepat"
+  },
+  "link.item.label.Panduan Scan QR": {
+    "message": "QR Scan Guide",
+    "description": "The label of footer link with label=Panduan Scan QR linking to /docs/panduan-pengguna/scan-qr"
+  },
+  "link.item.label.Klaim Hadiah Token": {
+    "message": "Claim Token Rewards",
+    "description": "The label of footer link with label=Klaim Hadiah Token linking to /docs/panduan-pengguna/klaim-token"
+  },
+  "link.item.label.Ada Kendala?": {
+    "message": "Need Help?",
+    "description": "The label of footer link with label=Ada Kendala? linking to /docs/panduan-pengguna/pemecahan-masalah"
+  },
+  "link.item.label.Teknologi Blockchain": {
+    "message": "Blockchain Technology",
+    "description": "The label of footer link with label=Teknologi Blockchain linking to /docs/teknologi/blockchain"
+  },
+  "link.item.label.Keamanan & Anti-Duplikasi": {
+    "message": "Security & Anti-Counterfeiting",
+    "description": "The label of footer link with label=Keamanan & Anti-Duplikasi linking to /docs/teknologi/keamanan-dan-anti-duplikasi"
+  },
+  "link.item.label.Glosarium Istilah": {
+    "message": "Glossary of Terms",
+    "description": "The label of footer link with label=Glosarium Istilah linking to /docs/glosarium"
+  },
+  "link.item.label.Solusi Pemilik Brand (flagshiiip.com)": {
+    "message": "Brand Owner Solutions (flagshiiip.com)",
+    "description": "The label of footer link with label=Solusi Pemilik Brand (flagshiiip.com) linking to https://flagshiiip.com"
+  },
+  "link.item.label.Ekosistem Token (flagshiiip.io)": {
+    "message": "Token Ecosystem (flagshiiip.io)",
+    "description": "The label of footer link with label=Ekosistem Token (flagshiiip.io) linking to https://flagshiiip.io"
   }
 }

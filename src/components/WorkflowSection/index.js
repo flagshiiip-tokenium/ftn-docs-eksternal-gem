@@ -12,30 +12,30 @@ import styles from './styles.module.css';
 const steps = [
   {
     step: '01',
-    tag: 'Langkah 1',
+    tag: 'Fase 01',
     title: 'Beli Produk Berstiker Resmi',
-    desc: 'Pastikan barang yang Anda beli di toko resmi memiliki stiker khusus Flagshiiip di bagian kemasannya.',
+    desc: 'Pastikan barang yang Anda beli di toko resmi memiliki stiker pintar khusus Flagshiiip di bagian kemasannya.',
     icon: <PackageQrDuotone size={34} />,
   },
   {
     step: '02',
-    tag: 'Langkah 2',
+    tag: 'Fase 02',
     title: 'Pindai Pakai Kamera Ponsel',
     desc: 'Buka aplikasi Flagshiiip di ponsel Anda, lalu arahkan kamera ke stiker. Sistem memeriksa keaslian dalam waktu kurang dari 1 detik.',
     icon: <CornersScanDuotone size={34} />,
   },
   {
     step: '03',
-    tag: 'Langkah 3',
+    tag: 'Fase 03',
     title: 'Terima Sertifikat Digital',
-    desc: 'Sistem langsung menerbitkan sertifikat kepemilikan resmi yang tersimpan aman di akun ponsel Anda sebagai bukti sah.',
+    desc: 'Smart contract langsung mencatat sertifikat kepemilikan resmi yang tersimpan aman di akun ponsel Anda sebagai bukti sah.',
     icon: <SealCheckDuotone size={34} />,
   },
   {
     step: '04',
-    tag: 'Langkah 4',
+    tag: 'Fase 04',
     title: 'Klaim Hadiah Token FTN',
-    desc: 'Dapatkan hadiah token FTN langsung ke akun Anda tanpa potongan biaya apa pun, siap disimpan atau ditukarkan kapan saja.',
+    desc: 'Dapatkan hadiah token FTN langsung ke dompet digital Anda tanpa potongan biaya gas atau admin, siap disimpan selamanya.',
     icon: <WalletTokenDuotone size={34} />,
   },
 ];
@@ -46,14 +46,18 @@ export default function WorkflowSection() {
       <div className={styles.container}>
         <div className={styles.header}>
           <span className={styles.eyebrow}>
-            <Translate id="workflow.eyebrow">Alur Penggunaan</Translate>
+            <Translate id="workflow.eyebrow">ARSITEKTUR &bull; ALUR PENGGUNA</Translate>
           </span>
           <h2 className={styles.title}>
-            <Translate id="workflow.title">Semudah 4 Langkah Cepat</Translate>
+            <Translate id="workflow.title.part1">Dari kemasan produk fisik</Translate>
+            <br />
+            <span className={styles.titleLight}>
+              <Translate id="workflow.title.part2">menjadi aset digital di saku Anda.</Translate>
+            </span>
           </h2>
           <p className={styles.subtitle}>
             <Translate id="workflow.subtitle">
-              Dari kemasan produk hingga hadiah tersimpan di saku Anda, semua proses berlangsung otomatis tanpa repot.
+              Dari rak toko ritel hingga hadiah tersimpan di dompet digital Anda, seluruh proses berjalan otomatis tanpa gesekan teknis.
             </Translate>
           </p>
         </div>
@@ -65,7 +69,6 @@ export default function WorkflowSection() {
           <div className={styles.stepsGrid}>
             {steps.map((item, idx) => (
               <div key={idx} className={styles.stepCard}>
-                {/* Header: Large Typography Number + Duotone Icon (No solid box, no duplicate icon) */}
                 <div className={styles.stepTopRow}>
                   <span className={styles.stepHugeNumber}>{item.step}</span>
                   <div className={styles.stepDuotoneIcon}>
@@ -87,7 +90,11 @@ export default function WorkflowSection() {
         <div className={styles.actionRow}>
           <Link to="/docs/cara-kerja/alur-produk" className={styles.guideBtn}>
             <span>Lihat Panduan Lengkap Langkah Demi Langkah</span>
-            <span className={styles.btnArrow}>→</span>
+            <span className={styles.btnArrowBadge}>
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                <path d="M5 13h11.86l-5.43 5.43 1.42 1.42L21.14 12l-8.29-7.85-1.42 1.42 5.43 5.43H5v2z"/>
+              </svg>
+            </span>
           </Link>
         </div>
       </div>

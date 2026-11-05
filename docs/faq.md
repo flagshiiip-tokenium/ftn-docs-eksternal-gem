@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 9
 title: "Pertanyaan yang Sering Diajukan"
 description: "Jawaban singkat atas pertanyaan umum tentang Flagshiiip."
 ---
@@ -14,38 +14,35 @@ Cara mudah memastikan produk yang Anda beli asli, dengan memindai stiker QR di k
 
 Buka aplikasi, scan QR pada stiker Flagshiiip di kemasan, lalu lihat hasilnya. Panduannya ada di [Scan QR](./panduan-pengguna/scan-qr.md).
 
-## Apakah aplikasinya gratis?
+## Apakah aplikasinya gratis bagi pembeli?
 
-:::caution[Perlu verifikasi tim]
-Informasi biaya pemakaian aplikasi bagi pembeli belum dikonfirmasi.
-:::
+**Ya, 100% gratis.** Pembeli tidak dikenakan biaya sepeser pun untuk mengunduh aplikasi, memindai stiker kemasan, memeriksa keaslian, maupun menerima sertifikat digital dan hadiah token FTN. Seluruh biaya transaksi gas blockchain ditanggung oleh sistem (*gasless*).
 
-## Apa yang terjadi jika QR sudah pernah dipindai?
+## Apakah saya wajib punya wallet untuk mengecek keaslian?
 
-Satu kode QR hanya bisa diklaim satu kali. Jika hasilnya tidak terverifikasi, hubungi penjual atau brand. Lihat [Verifikasi Keaslian](./cara-kerja/verifikasi-keaslian.md).
+**Tidak wajib.** Siapa pun bisa langsung memindai stiker kemasan untuk memastikan keaslian barang secara instan tanpa perlu akun dompet kripto. Dompet digital (*wallet*) hanya dibutuhkan saat Anda ingin menyimpan hadiah token FTN, dan Anda dapat masuk dengan sangat praktis menggunakan akun Google atau Apple melalui fitur Social Login.
 
-## Apakah saya wajib punya wallet?
+## Apa yang terjadi jika QR sudah pernah dipindai sebelumnya?
 
-Wallet hanya diperlukan untuk mengklaim hadiah. Lihat [Hubungkan Wallet](./panduan-pengguna/hubungkan-wallet.md).
+Satu kode stiker unik hanya bisa diklaim satu kali. Jika Anda memindai stiker yang sudah pernah diklaim, aplikasi akan menampilkan tanda peringatan kuning/merah beserta waktu klaim pertama. Hal ini melindungi Anda dari barang bekas atau barang tiruan yang mencoba memfotokopi stiker resmi. Lihat [Verifikasi Keaslian](./cara-kerja/verifikasi-keaslian.md).
 
-:::caution[Perlu verifikasi tim]
-Belum dikonfirmasi apakah mengecek keaslian saja memerlukan wallet.
-:::
+## Bagaimana jika stiker QR difoto lalu ditempel di produk tiruan?
 
-## Apa itu token?
+Stiker Flagshiiip dilindungi mekanisme *Single-Scan Nonce Lock*. Jika foto stiker tersebut ditempel pada kemasan tiruan, orang kedua yang memindainya akan langsung melihat peringatan bahwa stiker telah terdaftar sebelumnya. Pada saat bersamaan, dashboard pemilik brand menerima sinyal anomali lokasi pemindaian. Rinciannya ada di [Mengapa Sulit Dipalsukan?](./teknologi/keamanan-dan-anti-duplikasi.md).
 
-Token adalah semacam poin digital yang bisa Anda terima sebagai hadiah dari brand, dan disimpan di wallet Anda. Selengkapnya di [Apa itu Token?](./token/token-ftn.md) dan [Klaim Hadiah](./panduan-pengguna/klaim-token.md).
+## Apa perbedaan antara flagshiiip.com dan flagshiiip.io?
+
+- **[flagshiiip.com](https://flagshiiip.com)** berfokus pada solusi fisik, pemesanan stiker anti-pemalsuan, dan dashboard pemantauan bagi pemilik brand dan produsen.
+- **[flagshiiip.io](https://flagshiiip.io)** berfokus pada ekosistem digital token FTN (*Where Loyalty Becomes an Asset*), kontrak pintar Polygon, transparansi tokenomics, dan komunitas.
+
+## Apa itu token FTN?
+
+Token FTN (*Flagshiiip Tokenium*) adalah hadiah digital yang Anda peroleh saat memverifikasi produk asli. Berbeda dari poin toko biasa yang bisa kedaluwarsa, token FTN adalah hak milik Anda permanen dan tersimpan di dompet digital Anda. Selengkapnya di [Apa itu Token?](./token/token-ftn.md).
 
 ## Apa itu blockchain? Apakah saya perlu memahaminya?
 
-Blockchain adalah teknologi pencatatan digital yang membantu menjaga data tetap aman dan sulit diubah. Anda **tidak perlu memahaminya** untuk memakai Flagshiiip, karena semuanya berjalan otomatis di balik layar. Penjelasan sederhananya ada di [Blockchain, Dijelaskan Sederhana](./teknologi/blockchain.md).
+Blockchain adalah buku catatan digital bersama yang menjamin data sertifikat keaslian dan status stiker mustahil dimanipulasi. Anda **tidak perlu memahami aspek teknisnya** karena seluruh proses verifikasi dan pencatatan berlangsung otomatis di balik layar. Pelajari lebih lanjut di [Blockchain, Dijelaskan Sederhana](./teknologi/blockchain.md).
 
-## Bagaimana jika QR difoto lalu ditempel di produk palsu?
+## Saya pemilik brand. Bagaimana cara melindungi produk saya?
 
-:::note[Dalam penyusunan]
-Jawaban resmi akan ditambahkan setelah dikonfirmasi tim. Lihat juga [Mengapa Sulit Dipalsukan?](./teknologi/keamanan-dan-anti-duplikasi.md).
-:::
-
-## Saya pemilik brand. Bagaimana cara memakai Flagshiiip?
-
-Lihat halaman [Untuk Brand](./layanan/untuk-brand.md).
+Kunjungi halaman [Solusi untuk Brand](./layanan/untuk-brand.md), pelajari [Paket Layanan](./layanan/paket-layanan.md), atau hubungi tim kemitraan di [flagshiiip.com](https://flagshiiip.com).

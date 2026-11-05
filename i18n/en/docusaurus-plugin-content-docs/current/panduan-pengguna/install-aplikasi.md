@@ -6,24 +6,12 @@ description: "How to install the Flagshiiip app and create an account."
 
 # Install the App
 
-The Flagshiiip app is available for Android and iOS. On Google Play, it is named **FTN Apps**.
+The official Flagshiiip website links to the **Flagshiiip** app on [Google Play](https://play.google.com/store/apps/details?id=com.flagshiiip).
 
 ## Installing the app
 
-1. Open Google Play (Android) or the App Store (iPhone).
-2. Type **FTN Apps** or **Flagshiiip** in the search box.
-3. Tap **Install** and wait until it finishes.
-4. Open the app.
-
-## Creating an account
-
-1. On the start screen, tap **Sign Up Now**.
-2. Enter your email and password, then repeat the password in the confirmation field.
-3. Tick the agreement to the policy shown, then tap **Sign Up**.
-4. If you already have an account, tap **Log In**.
+1. Open the Google Play link above on an Android device.
+2. Tap **Install** and wait for installation to finish.
+3. Open the app and follow the sign-up or sign-in flow shown.
 
 Next, see [Scan the QR](./scan-qr.md).
-
-:::caution[Needs team verification]
-The app name in the App Store, the official download link, and the start screen layout need to be checked against the latest version of the app.
-:::

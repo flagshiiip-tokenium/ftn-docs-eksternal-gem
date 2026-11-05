@@ -1,0 +1,22 @@
+DIAGRAM ALUR 4 LANGKAH - VERSI PONSEL (tersusun ke bawah)
+
+File:
+- alur-4-langkah-mobile-dark-id.svg / -en.svg   : landing page bertema gelap
+- alur-4-langkah-mobile-light-id.svg / -en.svg  : halaman dokumentasi bertema terang
+- file .png hanya pratinjau
+
+Cara pasang:
+1. Salin file .svg ke static/img/diagram/ (bersama versi desktop alur-4-langkah-*.svg).
+2. Di landing page, tampilkan versi desktop pada layar lebar dan versi ponsel pada layar sempit, misalnya:
+
+   <img className={styles.flowDesktop} src={useBaseUrl('/img/diagram/alur-4-langkah-dark-id.svg')} alt="..." />
+   <img className={styles.flowMobile}  src={useBaseUrl('/img/diagram/alur-4-langkah-mobile-dark-id.svg')} alt="..." />
+
+   .flowMobile  { display: none; width: 100%; max-width: 420px; margin: 0 auto; height: auto; }
+   .flowDesktop { display: block; width: 100%; height: auto; }
+   @media (max-width: 768px) {
+     .flowDesktop { display: none; }
+     .flowMobile  { display: block; }
+   }
+
+3. Pilih -id atau -en sesuai bahasa aktif (useDocusaurusContext().i18n.currentLocale).

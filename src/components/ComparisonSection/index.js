@@ -9,17 +9,19 @@ export default function ComparisonSection() {
       <div className={styles.container}>
         <div className={styles.header}>
           <span className={styles.eyebrow}>
-            <Translate id="comparison.eyebrow">Perbandingan Solusi</Translate>
+            <Translate id="comparison.eyebrow">PERBANDINGAN SOLUSI &bull; KEAMANAN MUTLAK</Translate>
           </span>
           <h2 className={styles.title}>
-            <Translate id="comparison.title">
-              Mengapa Barcode Biasa &amp; Poin Toko Tidak Lagi Cukup?
-            </Translate>
+            <Translate id="comparison.title.part1">Mengapa barcode konvensional</Translate>
+            <br />
+            <span className={styles.titleLight}>
+              <Translate id="comparison.title.part2">tidak lagi melindungi produk?</Translate>
+            </span>
           </h2>
           <p className={styles.subtitle}>
             <Translate id="comparison.subtitle">
-              Barcode hitam-putih biasa sangat mudah difotokopi oleh pemalsu, dan poin toko sering hangus sebelum sempat dipakai.
-              Flagshiiip hadir dengan stiker khusus yang mustahil dipalsukan dan hadiah digital yang menjadi hak milik Anda selamanya.
+              Barcode hitam-putih biasa sangat mudah difotokopi oleh sindikat pemalsu, dan poin belanja konvensional sering hangus sepihak.
+              Flagshiiip hadir dengan stiker pintar berkunci kriptografi dan hadiah aset digital permanen.
             </Translate>
           </p>
         </div>

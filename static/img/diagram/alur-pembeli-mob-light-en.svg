@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 980" width="100%" height="100%" role="img" aria-label="Buyer flow in four steps (mobile version)">
+  <defs>
+    <linearGradient id="bgGradMob2En" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9fafb" />
+      <stop offset="50%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f3f4f6" />
+    </linearGradient>
+    <linearGradient id="cardGradMob2En" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#f9fafb" stop-opacity="0.96" />
+    </linearGradient>
+    <linearGradient id="amberGradMob2En" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#CC710B" />
+      <stop offset="100%" stop-color="#9A4E04" />
+    </linearGradient>
+    <linearGradient id="goldCoinMob2En" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="50%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#CA8A04" />
+    </linearGradient>
+    <linearGradient id="emeraldGradMob2En" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadowGlowMob2En" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+    <filter id="dotGlowMob2En" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#CC710B" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="416" height="976" rx="20" fill="url(#bgGradMob2En)" stroke="#e5e7eb" stroke-width="1.5" />
+
+  <!-- Header Badge -->
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="160" height="24" rx="12" fill="#CC710B" fill-opacity="0.12" stroke="#CC710B" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="12" cy="12" r="3.5" fill="#CC710B" filter="url(#dotGlowMob2En)" />
+    <text x="22" y="15.5" font-family="Inter, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#8f4f08" letter-spacing="0.8">4 BUYER STEPS</text>
+    <text x="170" y="16.5" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Simple Authenticity Flow</text>
+  </g>
+
+  <!-- ==================== STEP 1: DOWNLOAD ==================== -->
+  <g transform="translate(20, 58)">
+    <rect x="0" y="0" width="380" height="195" rx="16" fill="url(#cardGradMob2En)" stroke="#e5e7eb" stroke-width="1.5" filter="url(#shadowGlowMob2En)" />
+    <rect x="1" y="1" width="378" height="3" rx="1.5" fill="url(#amberGradMob2En)" />
+
+    <rect x="16" y="14" width="28" height="28" rx="8" fill="url(#amberGradMob2En)" />
+    <text x="30" y="33" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#111827">1</text>
+    <text x="52" y="32" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#8f4f08" letter-spacing="0.5">INSTALLATION</text>
+
+    <!-- Visual: Phone & Download -->
+    <g transform="translate(68, 115)">
+      <rect x="-18" y="-28" width="36" height="58" rx="7" fill="#15171C" stroke="#d1d5db" stroke-width="1.5" />
+      <rect x="-14" y="-23" width="28" height="48" rx="5" fill="#ffffff" />
+      <circle cx="0" cy="-2" r="11" fill="#CC710B" fill-opacity="0.2" stroke="#CC710B" stroke-width="1.2" />
+      <path d="M0 -7 L0 3 M-3 0 L0 3 L3 0" fill="none" stroke="#F59E0B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <g transform="translate(125, 75)">
+      <text x="0" y="20" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#111827">Download the App</text>
+      <text x="0" y="44" font-family="Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#6b7280">Get it on Google Play</text>
+      <text x="0" y="64" font-family="Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#6b7280">Sign in or create an account.</text>
+    </g>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <g transform="translate(210, 263)">
+    <line x1="0" y1="0" x2="0" y2="18" stroke="#CC710B" stroke-width="2.5" stroke-dasharray="3 3" />
+    <polygon points="0,24 -4,15 4,15" fill="#CC710B" />
+    <circle cx="0" cy="9" r="2.5" fill="#F59E0B" filter="url(#dotGlowMob2En)" />
+  </g>
+
+  <!-- ==================== STEP 2: SCAN ==================== -->
+  <g transform="translate(20, 287)">
+    <rect x="0" y="0" width="380" height="195" rx="16" fill="url(#cardGradMob2En)" stroke="#e5e7eb" stroke-width="1.5" filter="url(#shadowGlowMob2En)" />
+    <rect x="1" y="1" width="378" height="3" rx="1.5" fill="url(#amberGradMob2En)" />
+
+    <rect x="16" y="14" width="28" height="28" rx="8" fill="url(#amberGradMob2En)" />
+    <text x="30" y="33" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#111827">2</text>
+    <text x="52" y="32" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#8f4f08" letter-spacing="0.5">SCANNING</text>
+
+    <!-- Visual: Viewfinder & QR -->
+    <g transform="translate(68, 115)">
+      <path d="M-20 -12 V-20 H-12" fill="none" stroke="#CC710B" stroke-width="2" stroke-linecap="round" />
+      <path d="M20 -12 V-20 H12" fill="none" stroke="#CC710B" stroke-width="2" stroke-linecap="round" />
+      <path d="M-20 12 V20 H-12" fill="none" stroke="#CC710B" stroke-width="2" stroke-linecap="round" />
+      <path d="M20 12 V20 H12" fill="none" stroke="#CC710B" stroke-width="2" stroke-linecap="round" />
+      <rect x="-14" y="-14" width="28" height="28" rx="3" fill="#FFFFFF" />
+      <rect x="-11" y="-11" width="8" height="8" fill="#111827" />
+      <rect x="3" y="-11" width="8" height="8" fill="#111827" />
+      <rect x="-11" y="3" width="8" height="8" fill="#111827" />
+      <line x1="-18" y1="0" x2="18" y2="0" stroke="#CC710B" stroke-width="1.8" />
+    </g>
+
+    <g transform="translate(125, 75)">
+      <text x="0" y="20" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#111827">Scan QR Sticker</text>
+      <text x="0" y="44" font-family="Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#6b7280">Point your phone camera directly at</text>
+      <text x="0" y="64" font-family="Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#6b7280">the unique sticker on product packaging.</text>
+    </g>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <g transform="translate(210, 492)">
+    <line x1="0" y1="0" x2="0" y2="18" stroke="#CC710B" stroke-width="2.5" stroke-dasharray="3 3" />
+    <polygon points="0,24 -4,15 4,15" fill="#CC710B" />
+    <circle cx="0" cy="9" r="2.5" fill="#F59E0B" filter="url(#dotGlowMob2En)" />
+  </g>
+
+  <!-- ==================== STEP 3: RESULT ==================== -->
+  <g transform="translate(20, 516)">
+    <rect x="0" y="0" width="380" height="195" rx="16" fill="url(#cardGradMob2En)" stroke="#e5e7eb" stroke-width="1.5" filter="url(#shadowGlowMob2En)" />
+    <rect x="1" y="1" width="378" height="3" rx="1.5" fill="url(#amberGradMob2En)" />
+
+    <rect x="16" y="14" width="28" height="28" rx="8" fill="url(#amberGradMob2En)" />
+    <text x="30" y="33" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#111827">3</text>
+    <text x="52" y="32" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#8f4f08" letter-spacing="0.5">VALIDATION</text>
+
+    <!-- Visual: Shield -->
+    <g transform="translate(68, 115)">
+      <path d="M0 -20 L18 -12 V2 C18 14 0 22 0 22 C0 22 -18 14 -18 2 V-12 Z" fill="#141E1A" stroke="url(#emeraldGradMob2En)" stroke-width="1.8" />
+      <circle cx="0" cy="3" r="10" fill="#d1fae5" />
+      <path d="M-4 3 L-1 6 L5 0" fill="none" stroke="#34D399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <g transform="translate(125, 75)">
+      <text x="0" y="20" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#111827">View Result</text>
+      <text x="0" y="44" font-family="Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#6b7280">Official authenticity certificate and</text>
+      <text x="0" y="64" font-family="Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#6b7280">manufacturer data display in real-time.</text>
+    </g>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <g transform="translate(210, 721)">
+    <line x1="0" y1="0" x2="0" y2="18" stroke="#CC710B" stroke-width="2.5" stroke-dasharray="3 3" />
+    <polygon points="0,24 -4,15 4,15" fill="#CC710B" />
+    <circle cx="0" cy="9" r="2.5" fill="#F59E0B" filter="url(#dotGlowMob2En)" />
+  </g>
+
+  <!-- ==================== STEP 4: REWARD ==================== -->
+  <g transform="translate(20, 745)">
+    <rect x="0" y="0" width="380" height="205" rx="16" fill="url(#cardGradMob2En)" stroke="#CC710B" stroke-width="2" filter="url(#shadowGlowMob2En)" />
+    <rect x="1" y="1" width="378" height="3" rx="1.5" fill="url(#amberGradMob2En)" />
+
+    <rect x="16" y="14" width="28" height="28" rx="8" fill="url(#amberGradMob2En)" />
+    <text x="30" y="33" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#111827">4</text>
+    <text x="52" y="32" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#8f4f08" letter-spacing="0.5">FTN REWARD</text>
+
+    <!-- Visual: Gift & Coin -->
+    <g transform="translate(68, 120)">
+      <rect x="-16" y="-6" width="32" height="26" rx="3" fill="#3D2613" stroke="#CC710B" stroke-width="1.2" />
+      <rect x="-19" y="-12" width="38" height="8" rx="2" fill="#CC710B" />
+      <rect x="-3" y="-12" width="6" height="32" fill="#F59E0B" />
+      <g transform="translate(0, -22)">
+        <circle cx="0" cy="0" r="11" fill="url(#goldCoinMob2En)" stroke="#92400E" stroke-width="1.2" filter="url(#dotGlowMob2En)" />
+        <polygon points="0,-6 4,-1 0,6 -4,-1" fill="#FFFFFF" fill-opacity="0.9" />
+      </g>
+    </g>
+
+    <g transform="translate(125, 75)">
+      <text x="0" y="20" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#111827">Claim Token Reward</text>
+      <text x="0" y="44" font-family="Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#6b7280">Get FTN loyalty tokens credited to your</text>
+      <text x="0" y="64" font-family="Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#6b7280">digital wallet from partner brands.</text>
+    </g>
+  </g>
+</svg>

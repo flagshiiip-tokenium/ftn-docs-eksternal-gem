@@ -4,30 +4,44 @@ title: "Why Is It Hard to Counterfeit?"
 description: "How Flagshiiip's unique codes work and what you can do to stay safe."
 ---
 
+import DocDiagram from '@site/src/components/DocDiagram';
+
 # Why Is It Hard to Counterfeit?
 
-## Like a concert ticket
+## Like a Concert Ticket
 
-Think of a concert ticket. Every ticket has its own number, and one ticket can only be used to enter once. If a second person shows up with a ticket with the same number, the staff immediately know something is wrong.
+Think of a concert ticket. Every ticket has its own unique serial number, and that ticket can only be used to enter once. If a second person shows up with a ticket bearing the exact same number, venue staff immediately know something is wrong.
 
-A Flagshiiip sticker works in a similar way.
+Flagshiiip stickers work on the same principle.
 
-![Every sticker has a unique code that can only be claimed once](/img/diagram/kode-unik-en.svg)
+<DocDiagram
+  desktop={{ light: '/img/diagram/kode-unik-light-en.svg', dark: '/img/diagram/kode-unik-en.svg' }}
+  mobile={{ light: '/img/diagram/kode-unik-mob-light-en.svg', dark: '/img/diagram/kode-unik-mob-en.svg' }}
+  alt="Every sticker has a unique code that can only be claimed once"
+/>
 
-## Three things that protect you
+## Three Layers Protecting You
 
-1. **Unique code**: every sticker has its own QR code, and no two stickers are alike.
-2. **One claim**: each code can only be claimed once.
-3. **Records that are hard to change**: verification results are backed by digital recording technology ([blockchain](./blockchain.md)).
+1. **Unique Code**: Every sticker carries its own cryptographic QR code; no two stickers are ever alike.
+2. **Single-Claim Mechanism**: Each code can only be claimed once in the ecosystem.
+3. **Tamper-Resistant Records**: Verification results are anchored by decentralized digital ledger technology ([blockchain](./blockchain.md)).
 
-In addition, brands can monitor scan activity for their products, which makes suspicious patterns easier to spot.
+In addition, brands can continuously monitor scan activity across distribution channels, making suspicious activity patterns easily detectable.
 
-## What you can do
+## What You Can Do as a Consumer
 
-- Scan the sticker on the product you buy instead of relying only on the seller's word.
-- If the result is **not verified**, contact the seller or the brand.
-- Protect your account password, and never share your wallet's **seed phrase** with anyone.
+- Always scan the sticker on the product you purchase rather than relying solely on the seller's claims.
+- If the result displays **not verified**, immediately contact the retailer or brand.
+- Secure your account credentials, and never share your wallet's **seed phrase** with anyone.
 
-:::note[Work in progress]
-An explanation of what happens if a QR code is photographed and placed on another product will be added once confirmed by the team.
-:::
+## What Happens If Counterfeiters Photo or Photocopy a QR Sticker?
+
+This is the most common question from both consumers and brands: *What if a counterfeit ring photographs an authentic sticker and prints copies across hundreds of fake items?*
+
+The Flagshiiip defense architecture neutralizes this via the **Single-Scan Nonce Lock**:
+
+1. **Instant State Lock**: When the first genuine buyer scans the physical sticker, the blockchain state for that unique code immediately transitions to **CLAIMED**.
+2. **Automated Alert on Subsequent Scans**: When someone scans a copied code on a fake product, the app will never validate it as genuine. Instead, it displays a red alert:
+   > ⚠️ **Warning: This Sticker Has Already Been Claimed!**  
+   > *Initial claim timestamp: [Date & Time]. Beware of potential counterfeit or second-hand goods.*
+3. **Telemetry Alert for Brands**: Simultaneously, telemetry data from the duplicate scan is routed to the manufacturer's dashboard on [flagshiiip.com](https://flagshiiip.com), flagging suspicious location anomalies in real time.

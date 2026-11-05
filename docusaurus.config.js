@@ -51,10 +51,17 @@ const config = {
     ({
       image: 'img/favicon-32x32.png',
       colorMode: {
-        respectPrefersColorScheme: true,
+        defaultMode: 'dark',
+        respectPrefersColorScheme: false,
       },
       navbar: {
         title: 'Flagshiiip',
+        logo: {
+          alt: 'Flagshiiip Logo',
+          src: 'img/logo.svg',
+          width: 32,
+          height: 32,
+        },
         items: [
           {
             type: 'docSidebar',
@@ -92,15 +99,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Dokumentasi',
+            title: 'Bantuan',
             items: [
               {
-                label: 'Pengenalan',
-                to: '/docs/pengenalan/apa-itu-flagshiiip',
+                label: 'Mulai Cepat',
+                to: '/docs/mulai-cepat',
               },
               {
-                label: 'Panduan Pengguna',
-                to: '/docs/panduan-pengguna/install-aplikasi',
+                label: 'Panduan Scan QR',
+                to: '/docs/panduan-pengguna/scan-qr',
+              },
+              {
+                label: 'Klaim Hadiah Token',
+                to: '/docs/panduan-pengguna/klaim-token',
+              },
+              {
+                label: 'Ada Kendala?',
+                to: '/docs/panduan-pengguna/pemecahan-masalah',
               },
               {
                 label: 'FAQ',
@@ -109,20 +124,37 @@ const config = {
             ],
           },
           {
-            title: 'Flagshiiip',
+            title: 'Kebijakan & Keamanan',
             items: [
               {
-                label: 'flagshiiip.com',
+                label: 'Teknologi Blockchain',
+                to: '/docs/teknologi/blockchain',
+              },
+              {
+                label: 'Keamanan & Anti-Duplikasi',
+                to: '/docs/teknologi/keamanan-dan-anti-duplikasi',
+              },
+              {
+                label: 'Glosarium Istilah',
+                to: '/docs/glosarium',
+              },
+            ],
+          },
+          {
+            title: 'Ekosistem Flagshiiip',
+            items: [
+              {
+                label: 'Solusi Pemilik Brand (flagshiiip.com)',
                 href: 'https://flagshiiip.com',
               },
               {
-                label: 'flagshiiip.io',
+                label: 'Ekosistem Token (flagshiiip.io)',
                 href: 'https://flagshiiip.io',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} PT BMG Capital Technology.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Flagshiiip & PT BMG Capital Technology. Hak cipta dilindungi.`,
       },
       prism: {
         theme: prismThemes.github,

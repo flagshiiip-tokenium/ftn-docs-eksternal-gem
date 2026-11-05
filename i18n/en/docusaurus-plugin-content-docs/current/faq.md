@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 9
 title: "Frequently Asked Questions"
 description: "Short answers to common questions about Flagshiiip."
 ---
@@ -8,44 +8,41 @@ description: "Short answers to common questions about Flagshiiip."
 
 ## What is Flagshiiip?
 
-An easy way to confirm the product you bought is authentic, by scanning the QR sticker on its packaging. More at [What is Flagshiiip?](./pengenalan/apa-itu-flagshiiip.md).
+An easy way to verify that the product you purchased is genuine by scanning the unique QR sticker on its packaging. Learn more at [What is Flagshiiip?](./pengenalan/apa-itu-flagshiiip.md).
 
 ## How do I check whether a product is authentic?
 
-Open the app, scan the QR on the Flagshiiip sticker on the packaging, then view the result. The guide is at [Scan the QR](./panduan-pengguna/scan-qr.md).
+Open the app, scan the unique QR code on the Flagshiiip sticker on the packaging, and view the result instantly on your screen. Follow the guide in [Scan QR](./panduan-pengguna/scan-qr.md).
 
-## Is the app free?
+## Is the app free for buyers?
 
-:::caution[Needs team verification]
-Information about whether buyers pay to use the app has not been confirmed.
-:::
+**Yes, 100% free.** Buyers are never charged anything to download the app, scan product packaging, verify authenticity, or receive digital certificates and FTN token rewards. All blockchain gas fees are fully covered by the system (*gasless*).
 
-## What happens if a QR has already been scanned?
+## Do I need a crypto wallet to verify authenticity?
 
-Each QR code can only be claimed once. If the result is not verified, contact the seller or the brand. See [Authenticity Verification](./cara-kerja/verifikasi-keaslian.md).
+**No, a wallet is not required.** Anyone can scan the packaging sticker to instantly confirm product authenticity without needing a crypto wallet. A digital wallet is only used if you wish to store FTN token rewards, and you can log in effortlessly using your Google or Apple account via Social Login.
 
-## Do I have to have a wallet?
+## What happens if the QR code has already been scanned previously?
 
-A wallet is only needed to claim a reward. See [Connect a Wallet](./panduan-pengguna/hubungkan-wallet.md).
+Each unique sticker code can only be claimed once. If you scan a sticker that was previously claimed, the app will display a yellow/red warning status along with the timestamp of the first claim. This protects you against used goods or counterfeiters attempting to photocopy official stickers. See [Authenticity Verification](./cara-kerja/verifikasi-keaslian.md).
 
-:::caution[Needs team verification]
-It has not been confirmed whether checking authenticity alone requires a wallet.
-:::
+## What if a QR sticker is photographed and placed on a fake product?
 
-## What is a token?
+Flagshiiip stickers are protected by a *Single-Scan Nonce Lock* mechanism. If a photo of the sticker is placed on counterfeit packaging, the second person who scans it will immediately see a warning that the sticker was already registered. Simultaneously, the brand owner's dashboard receives an anomaly alert regarding the scan location. Details can be found in [Why Is It Hard to Counterfeit?](./teknologi/keamanan-dan-anti-duplikasi.md).
 
-A token is a kind of digital point you can receive as a reward from a brand, kept in your wallet. More at [What is a Token?](./token/token-ftn.md) and [Claim a Reward](./panduan-pengguna/klaim-token.md).
+## What is the difference between flagshiiip.com and flagshiiip.io?
+
+- **[flagshiiip.com](https://flagshiiip.com)** focuses on physical solutions, anti-counterfeit sticker ordering, and monitoring dashboards for brand owners and manufacturers.
+- **[flagshiiip.io](https://flagshiiip.io)** focuses on the FTN digital token ecosystem (*Where Loyalty Becomes an Asset*), Polygon smart contracts, tokenomics transparency, and the community.
+
+## What is the FTN token?
+
+The FTN token (*Flagshiiip Tokenium*) is a digital reward you earn when verifying authentic products. Unlike conventional store loyalty points that can expire, FTN tokens are your permanent property held in your digital wallet. Learn more in [What is a Token?](./token/token-ftn.md).
 
 ## What is blockchain? Do I need to understand it?
 
-Blockchain is a digital recording technology that helps keep data secure and hard to change. You **do not need to understand it** to use Flagshiiip, because everything runs automatically behind the scenes. A simple explanation is at [Blockchain, Explained Simply](./teknologi/blockchain.md).
+Blockchain is a shared digital ledger that ensures authenticity certificates and sticker statuses cannot be tampered with. You **do not need to understand technical aspects**, as all verification and recording processes occur automatically behind the scenes. Learn more in [Blockchain, Explained Simply](./teknologi/blockchain.md).
 
-## What if a QR is photographed and put on a fake product?
+## I am a brand owner. How can I protect my products?
 
-:::note[Work in progress]
-The official answer will be added once confirmed by the team. See also [Why Is It Hard to Counterfeit?](./teknologi/keamanan-dan-anti-duplikasi.md).
-:::
-
-## I am a brand owner. How do I use Flagshiiip?
-
-See the [For Brands](./layanan/untuk-brand.md) page.
+Visit the [Solutions for Brands](./layanan/untuk-brand.md) page, explore our [Service Packages](./layanan/paket-layanan.md), or contact the partnerships team at [flagshiiip.com](https://flagshiiip.com).

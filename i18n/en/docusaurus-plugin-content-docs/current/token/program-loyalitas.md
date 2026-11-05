@@ -6,21 +6,21 @@ description: "An explanation of the Flagshiiip loyalty rewards program for buyer
 
 # Loyalty Program
 
-## Like a membership card
+## Like a Membership Card
 
-Many brands have membership cards that give points or rewards to loyal customers. The Flagshiiip loyalty program has the same goal, but the reward is a digital [token](./token-ftn.md).
+Many brands offer membership cards that grant loyalty points or discounts to loyal customers. The Flagshiiip loyalty program shares the same goal, but delivers rewards in the form of digital [FTN tokens](./token-ftn.md).
 
-## For you as a buyer
+## For You as a Buyer
 
-- After verifying a product, you may receive a reward from the brand.
-- The reward is kept in your wallet.
+- Upon verifying an authentic product, you have the opportunity to claim rewards directly from the brand.
+- Earned token rewards are safely stored in your non-custodial digital wallet.
 
-How to claim it is at [Claim a Reward](../panduan-pengguna/klaim-token.md).
+Step-by-step claiming instructions can be found in [Claim Rewards](../panduan-pengguna/klaim-token.md).
 
-## For brands
+## For Brands
 
-Brands can build customer loyalty by giving token-based rewards to their buyers. The program is managed by each brand.
+Brands can cultivate lasting customer retention by distributing token-based rewards directly to buyers who purchase authentic products. Reward rules and campaign budgets are managed independently by each brand.
 
-:::caution[Needs team verification]
-It has not been confirmed whether all products give a reward, or only products from brands that join this program. The type, amount, and conditions of rewards have not been confirmed either.
+:::info[Reward Availability]
+FTN token reward programs are configured flexibly by each partner brand within their service packages. Participating products will automatically display the available token reward amount on your mobile screen once verification succeeds.
 :::

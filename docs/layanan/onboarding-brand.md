@@ -1,24 +1,27 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: "Onboarding Brand"
 description: "Langkah awal bagi brand yang ingin memakai Flagshiiip."
 ---
 
 # Onboarding Brand
 
-## Cara memulai
+Bergabung dengan ekosistem Flagshiiip untuk melindungi keaslian produk fisik Anda dirancang cepat, aman, dan tanpa mengganggu alur operasional manufaktur yang sudah berjalan.
 
-1. Pelajari [Paket Layanan](./paket-layanan.md) dan pilih yang sesuai.
-2. Untuk paket Starter, gunakan tombol **Pesan Sekarang** di situs. Untuk paket Custom, gunakan **Konsultasi Sekarang**.
-3. Untuk pertanyaan awal, gunakan **Kontak Kami** di situs.
-4. Tim Flagshiiip akan menindaklanjuti kebutuhan brand Anda.
+## Alur Onboarding 4 Langkah
 
-## Yang perlu disiapkan brand
+1. **Konsultasi & Pemilihan Paket**
+   Pilih paket yang sesuai dengan kebutuhan skala bisnis Anda ([Starter atau Custom](./paket-layanan.md)). Kunjungi [flagshiiip.com](https://flagshiiip.com) untuk berdiskusi dengan tim representatif Flagshiiip.
+2. **Pendaftaran Produk & Pembuatan Kode Unik**
+   Daftarkan data batch produk (nama produk, varian, dan jumlah unit). Sistem Flagshiiip akan menghasilkan kumpulan kode kriptografi unik terenkripsi (*nonces*) yang siap dicetak ke stiker pintar.
+3. **Pencetakan & Pemasangan Stiker Fisik**
+   Stiker pintar diproduksi dengan material berkualitas tinggi dan tahan rusak (*tamper-evident*). Stiker ditempelkan pada kemasan luar produk atau segel kemasan pabrik Anda.
+4. **Aktivasi Dashboard & Siap Pindai**
+   Akun dashboard monitoring brand Anda resmi diaktifkan. Begitu produk mulai beredar di gerai ritel dan dipindai pembeli, seluruh data pemindaian dan peta sebaran geolokasi langsung tampil secara real-time.
 
-- Nama brand dan produk yang ingin dilindungi
-- Perkiraan jumlah stiker yang dibutuhkan
-- Untuk paket Custom: kebutuhan desain, branding, dan program loyalitas
+## Yang Perlu Disiapkan oleh Brand
 
-:::note[Dalam penyusunan]
-Alur resmi onboarding setelah pemesanan (pendaftaran produk, produksi dan pengiriman stiker, serta akses dashboard) akan ditambahkan setelah dikonfirmasi tim.
-:::
+- Nama brand, varian produk, dan nomor izin edar resmi (bila ada).
+- Perkiraan volume kebutuhan stiker per siklus produksi.
+- File logo brand dan panduan identitas visual (untuk paket Custom).
+- Rencana program hadiah loyalitas token FTN (bila mengaktifkan fitur loyalitas pembeli).

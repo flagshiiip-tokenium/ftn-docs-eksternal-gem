@@ -1,0 +1,22 @@
+DIAGRAM ALUR 4 LANGKAH (ilustrasi baru)
+
+File:
+- alur-4-langkah-dark-id.svg / -en.svg   : untuk landing page bertema gelap (latar transparan)
+- alur-4-langkah-light-id.svg / -en.svg  : untuk halaman dokumentasi bertema terang
+- file .png hanya pratinjau, tidak perlu dipasang
+
+Cara pasang:
+1. Salin semua file .svg ke static/img/diagram/
+2. Di halaman dokumentasi (Markdown), ganti diagram lama dengan:
+   ![Alur cek keaslian produk dalam empat langkah](/img/diagram/alur-4-langkah-light-id.svg)
+   (di versi Inggris pakai ...-light-en.svg)
+3. Di landing page (src/pages/index.js), pakai versi dark, misalnya:
+   import useBaseUrl from '@docusaurus/useBaseUrl';
+   import Translate, {translate} from '@docusaurus/Translate';
+   ...
+   const src = useBaseUrl(translate({id: 'homepage.flowDiagram', message: '/img/diagram/alur-4-langkah-dark-id.svg'}));
+   <img src={src} alt="..." style={{width: '100%', height: 'auto'}} />
+   lalu isi message untuk bahasa Inggris di i18n/en/code.json menjadi /img/diagram/alur-4-langkah-dark-en.svg
+   (jalankan npm run write-translations -- --locale en setelah menambahkan kode di atas)
+4. Opsional: agar halaman dokumentasi otomatis berganti versi terang/gelap, pakai komponen ThemedImage
+   dari Docusaurus (butuh file .mdx atau Markdown yang mendukung JSX).

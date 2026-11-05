@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "My Site Logo",
+    "message": "Flagshiiip Logo",
     "description": "The alt text of navbar logo"
   },
   "item.label.Tutorial": {
@@ -34,5 +34,9 @@
   "item.label.flagshiiip.com": {
     "message": "flagshiiip.com",
     "description": "Navbar item with label flagshiiip.com"
+  },
+  "item.label.flagshiiip.io": {
+    "message": "flagshiiip.io",
+    "description": "Navbar item with label flagshiiip.io"
   }
 }

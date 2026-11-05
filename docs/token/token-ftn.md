@@ -4,6 +4,8 @@ title: "Apa itu Token?"
 description: "Penjelasan sederhana tentang token Flagshiiip dan bagaimana Anda mendapatkannya."
 ---
 
+import DocDiagram from '@site/src/components/DocDiagram';
+
 # Apa itu Token?
 
 ## Seperti poin belanja versi digital
@@ -14,7 +16,11 @@ Ekosistem token Flagshiiip dinamai **Flagshiiip Tokenium**, dan namanya sering d
 
 ## Bagaimana Anda mendapatkannya?
 
-![Perjalanan token: scan, klaim, tersimpan di wallet](/img/diagram/perjalanan-token-id.svg)
+<DocDiagram
+  desktop={{ light: '/img/diagram/perjalanan-token-light-id.svg', dark: '/img/diagram/perjalanan-token-id.svg' }}
+  mobile={{ light: '/img/diagram/perjalanan-token-mob-light-id.svg', dark: '/img/diagram/perjalanan-token-mob-id.svg' }}
+  alt="Perjalanan token: scan, klaim, tersimpan di wallet"
+/>
 
 1. Scan stiker pada produk dan pastikan hasilnya terverifikasi.
 2. Jika produk tersebut memberi hadiah, klaim lewat aplikasi.
@@ -22,16 +28,23 @@ Ekosistem token Flagshiiip dinamai **Flagshiiip Tokenium**, dan namanya sering d
 
 Panduan langkahnya ada di [Klaim Hadiah](../panduan-pengguna/klaim-token.md) dan [Hubungkan Wallet](../panduan-pengguna/hubungkan-wallet.md).
 
-## Apa bedanya dengan poin biasa?
+## Apa bedanya dengan poin belanja biasa?
 
-![Perbandingan poin loyalitas biasa dengan token Flagshiiip](/img/diagram/poin-vs-token-id.svg)
+<DocDiagram
+  desktop={{ light: '/img/diagram/poin-vs-token-light-id.svg', dark: '/img/diagram/poin-vs-token-id.svg' }}
+  mobile={{ light: '/img/diagram/poin-vs-token-mob-light-id.svg', dark: '/img/diagram/poin-vs-token-mob-id.svg' }}
+  alt="Perbandingan poin loyalitas biasa dengan token Flagshiiip"
+/>
 
-Poin loyalitas biasanya terkunci di satu toko atau aplikasi, dan nilainya bisa cepat hilang. Flagshiiip merancang token agar lebih fleksibel dan nilainya tercatat secara transparan.
+| Fitur | Poin Belanja Konvensional | Token FTN (Flagshiiip Tokenium) |
+| :--- | :--- | :--- |
+| **Hak Milik** | Tersimpan di server toko, bisa dibatalkan sepihak | Tersimpan aman di dompet digital milik Anda pribadi |
+| **Masa Kedaluwarsa** | Sering hangus sepihak jika tidak dipakai | **Tanpa batas hangus**, menjadi aset permanen Anda |
+| **Transparansi** | Aturan bisa diubah toko sewaktu-waktu | Tercatat transparan di blockchain publik (Polygon) |
+| **Biaya Klaim** | Gratis | **Gratis** tanpa potongan biaya admin/gas (*gasless*) |
 
-:::caution[Perlu verifikasi tim]
-Perbandingan di atas mengikuti penjelasan di situs Flagshiiip. Pastikan dengan tim: untuk apa token bisa dipakai, apakah bisa dipindahkan ke orang lain, dan apakah token yang diterima pembeli adalah FTN atau token milik masing-masing brand. Pernyataan di toko aplikasi bahwa aplikasi tidak menyediakan layanan trading atau investasi juga perlu diselaraskan dengan penjelasan di sini.
-:::
+Slogan Flagshiiip adalah *"Where Loyalty Becomes an Asset"*. Artinya, kesetiaan Anda membeli produk asli produsen dihargai dengan aset digital riil yang bernilai jangka panjang.
 
-:::note[Dalam penyusunan]
-Pernyataan resmi (disclaimer) tentang token akan ditambahkan setelah ditentukan tim.
+:::info[Pernyataan Resmi Utilitas Token]
+Token FTN (*Flagshiiip Tokenium*) dirancang murni sebagai token utilitas (*utility reward token*) untuk program loyalitas dan apresiasi konsumen atas pembelian produk fisik orisinal. Aplikasi Flagshiiip tidak menyediakan layanan trading spekulatif atau produk investasi keuangan.
 :::

@@ -1,19 +1,38 @@
 ---
 sidebar_position: 2
-title: "The Rules of the Token"
-description: "A simple explanation of the rules for the token's amount and distribution."
+title: "Tokenomics Framework"
+description: "A straightforward guide to token supply rules, distribution pillars, and smart contract specifications."
 ---
 
-# The Rules of the Token
+# Tokenomics Framework
 
-Every token has rules: **how many exist in total**, **who they are shared with**, and **what they are used for**. This set of rules is often called **tokenomics**.
+Every token follows clear economic rules: **total supply**, **allocation and distribution**, and **ecosystem utility**. This framework is commonly referred to as **tokenomics**.
 
-Think of a voucher whose total amount is decided from the start. Clear rules let everyone know how the voucher circulates.
+## Structure & Technical Specifications of the FTN Token
 
-You do not need to understand this page to check a product's authenticity or receive a reward.
+The token economic model is architected transparently on the [flagshiiip.io](https://flagshiiip.io) platform:
 
-:::note[Work in progress]
-The official tokenomics figures (total supply and distribution) will be published on this page once the official version is confirmed by the team.
+| Parameter | Specification |
+| :--- | :--- |
+| **Token Name** | Flagshiiip Tokenium |
+| **Symbol / Ticker** | **FTN** |
+| **Blockchain Network** | Polygon (Ethereum Layer-2) |
+| **Contract Standard** | ERC-20 (Loyalty Utility) & ERC-721/1155 (Digital Certificate) |
+| **Security Audit** | Audited and verified by **CertiK** & built on **OpenZeppelin** standards |
+
+## 4 Core Pillars of FTN Token Distribution
+
+1. **Consumer Scan Rewards**  
+   The primary allocation is dedicated to rewarding buyers who actively scan and verify authentic physical products through the mobile app.
+2. **Brand Ecosystem Incentives**  
+   Supports partner manufacturers and brands in deploying custom loyalty campaigns, exclusive merchandise drops, and voucher redemptions.
+3. **Platform Development & Infrastructure**  
+   Funds continuous server maintenance, mobile app feature upgrades, and continuous innovation in smart QR security cryptography.
+4. **Ecosystem Stability & Liquidity**  
+   Maintains ecosystem health, operational sustainability, and network stability over the long term.
+
+:::tip[Blockchain Transparency]
+All distribution allocations and minting rules are permanently locked within immutable smart contracts, preventing arbitrary alterations and ensuring complete trust across the ecosystem.
 :::
 
-An introduction to the token is at [What is a Token?](./token-ftn.md).
+Read the introductory token guide in [What is a Token?](./token-ftn.md) and explore enterprise opportunities in [Loyalty Program](./program-loyalitas.md).

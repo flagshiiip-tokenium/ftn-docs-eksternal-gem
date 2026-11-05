@@ -1,0 +1,395 @@
+.section {
+  position: relative;
+  padding-block: clamp(48px, 8vw, 96px);
+  padding-inline: 0;
+  background-color: var(--ifm-background-color);
+  font-family: var(--ifm-font-family-base);
+  border-top: 1px solid var(--flag-border);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: clamp(16px, 5vw, 24px);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #CC710B;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--flag-text-primary);
+  margin: 0 0 0.65rem;
+}
+
+.subtitle {
+  font-size: clamp(0.95rem, 2vw, 1.05rem);
+  line-height: 1.6;
+  color: var(--flag-text-secondary);
+  margin: 0;
+}
+
+/* Diagram Showcase Card */
+.diagramCard {
+  background: var(--flag-surface-card);
+  border: 1px solid var(--flag-border);
+  border-radius: 20px;
+  padding: 2.25rem 1.75rem 2.25rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+
+:global([data-theme='dark']) .diagramCard {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+}
+
+/* Steps track container */
+.stepsTrack {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+/* Step column: memisahkan visual kartu di atas dan teks di bawah (kotak hijau) */
+.stepColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* Kartu visual (hanya menampilkan badge dan visual yang diperbesar) */
+.visualCard {
+  position: relative;
+  background: var(--flag-surface);
+  border: 1px solid var(--flag-border);
+  border-radius: 20px;
+  padding: 1.25rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 390px;
+  box-sizing: border-box;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+/* Light mode kartu 1, 2, 3: latar belakang putih bersih, border abu-abu lembut */
+:global([data-theme='light']) .visualCard,
+:root:not([data-theme='dark']) .visualCard {
+  background: #ffffff;
+  border-color: #e5e7eb;
+  box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.05);
+}
+
+:global([data-theme='light']) .visualCard:hover,
+:root:not([data-theme='dark']) .visualCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(204, 113, 11, 0.55);
+  box-shadow: 0 12px 28px -6px rgba(204, 113, 11, 0.16);
+}
+
+/* Dark mode kartu 1, 2, 3: latar belakang gelap elegan */
+:global([data-theme='dark']) .visualCard {
+  background: #121212;
+  border-color: #2e2318;
+}
+
+:global([data-theme='dark']) .visualCard:hover {
+  transform: translateY(-4px);
+  border-color: rgba(204, 113, 11, 0.45);
+  box-shadow: 0 16px 36px -8px rgba(204, 113, 11, 0.2);
+}
+
+/* Kartu khusus langkah 4 (border putus-putus oranye pada light & dark mode) */
+.visualCardSpecial {
+  border: 2px dashed #CC710B !important;
+  background: rgba(204, 113, 11, 0.04) !important;
+}
+
+.visualCardSpecial:hover {
+  border-color: #f59e0b !important;
+  box-shadow: 0 16px 36px -8px rgba(204, 113, 11, 0.3) !important;
+}
+
+/* Wadah di dalam kartu */
+.visualInner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Step number badge (di pojok kanan atas melayang di sudut kartu sesuai lingkaran biru) */
+.stepBadge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #CC710B;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25), 0 2px 6px rgba(204, 113, 11, 0.45);
+  z-index: 10;
+}
+
+/* Box Graphic (Step 1 - Diperbesar) */
+.boxSvg {
+  width: 175px;
+  height: 190px;
+  display: block;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.16));
+  transition: transform 0.25s ease;
+}
+
+:global([data-theme='dark']) .boxSvg {
+  filter: drop-shadow(0 10px 22px rgba(0, 0, 0, 0.6));
+}
+
+.visualCard:hover .boxSvg {
+  transform: scale(1.05);
+}
+
+/* Phone Mockup Frame (Diperbesar secara signifikan) */
+.phoneMockup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.phoneFrame {
+  width: 154px;
+  height: 334px;
+  background: #000000;
+  border: 2.5px solid #2e2318;
+  border-radius: 26px;
+  padding: 6px 6px 8px;
+  box-shadow: 0 14px 30px -8px rgba(0, 0, 0, 0.25),
+              0 0 16px -4px rgba(204, 113, 11, 0.15);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+:global([data-theme='dark']) .phoneFrame {
+  box-shadow: 0 16px 38px -8px rgba(0, 0, 0, 0.95),
+              0 0 24px -4px rgba(204, 113, 11, 0.24);
+}
+
+.visualCard:hover .phoneFrame {
+  border-color: rgba(204, 113, 11, 0.6);
+  transform: scale(1.02);
+}
+
+.phoneTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  height: 6px;
+  margin-bottom: 4px;
+  flex-shrink: 0;
+}
+
+.speakerSlit {
+  width: 24px;
+  height: 2.5px;
+  background: #2e2318;
+  border-radius: 1.5px;
+}
+
+.cameraHole {
+  width: 4px;
+  height: 4px;
+  background: #2e2318;
+  border-radius: 50%;
+}
+
+.phoneScreen {
+  flex: 1;
+  width: 100%;
+  border-radius: 19px;
+  overflow: hidden;
+  background: #000000;
+  position: relative;
+  line-height: 0;
+}
+
+.phoneImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Panah penghubung antar kartu */
+.stepArrowWrap {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 185px;
+  width: 22px;
+  flex-shrink: 0;
+}
+
+.stepArrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Step Info Typography: Ditempatkan di bawah kartu (Area Kotak Biru - Satu Tema dengan Light/Dark) */
+.stepInfo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  width: 100%;
+  margin-top: 1.35rem;
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+}
+
+.stepTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--flag-text-primary);
+  margin: 0;
+  letter-spacing: -0.01em;
+  transition: color 0.25s ease;
+}
+
+.stepDesc {
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--flag-text-secondary);
+  margin: 0;
+  transition: color 0.25s ease;
+}
+
+/* Footer Action Link */
+.footerAction {
+  display: flex;
+  justify-content: center;
+}
+
+.detailLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #CC710B;
+  text-decoration: none !important;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(204, 113, 11, 0.4);
+  background: rgba(204, 113, 11, 0.08);
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.detailLink:hover {
+  border-color: #CC710B;
+  background: rgba(204, 113, 11, 0.18);
+  text-decoration: none !important;
+  transform: translateX(2px);
+}
+
+/* Responsive: Tablet (< 992px) */
+@media (max-width: 991px) {
+  .stepsTrack {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.75rem 1.25rem;
+  }
+
+  .stepArrowWrap {
+    display: none;
+  }
+
+  .diagramCard {
+    padding: 1.75rem 1rem;
+  }
+
+  .visualCard {
+    height: 360px;
+  }
+
+  .phoneFrame {
+    width: 142px;
+    height: 308px;
+  }
+}
+
+/* Responsive: Mobile (< 600px) */
+@media (max-width: 599px) {
+  .stepsTrack {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .visualCard {
+    height: 350px;
+    padding: 1rem;
+  }
+
+  .phoneFrame {
+    width: 140px;
+    height: 300px;
+  }
+
+  .boxSvg {
+    width: 155px;
+    height: 170px;
+  }
+
+  .stepInfo {
+    margin-top: 1rem;
+  }
+}

@@ -1,1 +1,190 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" width="960" height="260" role="img" aria-label="Alur pembeli: unduh aplikasi, scan QR, lihat hasil, klaim hadiah"><rect x="1" y="1" width="958" height="258" rx="20" fill="#F2F7F6" stroke="#D5E4E0" stroke-width="2"/><rect x="20" y="50" width="200" height="160" rx="14" fill="#FFFFFF" stroke="#25C2A0" stroke-width="2.5"/><circle cx="120" cy="50" r="22" fill="#25C2A0"/><text x="120" y="57" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">1</text><text x="120" y="115" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1B2B2A">Unduh aplikasi</text><text x="120" y="145" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#4B5F5C">Dari Google Play</text><text x="120" y="165" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#4B5F5C">atau App Store</text><line x1="226" y1="130" x2="246" y2="130" stroke="#25C2A0" stroke-width="3"/><polygon points="254,130 242,123 242,137" fill="#25C2A0"/><rect x="260" y="50" width="200" height="160" rx="14" fill="#FFFFFF" stroke="#25C2A0" stroke-width="2.5"/><circle cx="360" cy="50" r="22" fill="#25C2A0"/><text x="360" y="57" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">2</text><text x="360" y="115" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1B2B2A">Scan QR</text><text x="360" y="145" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#4B5F5C">Arahkan kamera ke</text><text x="360" y="165" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#4B5F5C">stiker di kemasan</text><line x1="466" y1="130" x2="486" y2="130" stroke="#25C2A0" stroke-width="3"/><polygon points="494,130 482,123 482,137" fill="#25C2A0"/><rect x="500" y="50" width="200" height="160" rx="14" fill="#FFFFFF" stroke="#25C2A0" stroke-width="2.5"/><circle cx="600" cy="50" r="22" fill="#25C2A0"/><text x="600" y="57" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">3</text><text x="600" y="115" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1B2B2A">Lihat hasilnya</text><text x="600" y="145" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#4B5F5C">Sertifikat keaslian</text><text x="600" y="165" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#4B5F5C">akan tampil</text><line x1="706" y1="130" x2="726" y2="130" stroke="#25C2A0" stroke-width="3"/><polygon points="734,130 722,123 722,137" fill="#25C2A0"/><rect x="740" y="50" width="200" height="160" rx="14" fill="#FFFFFF" stroke="#25C2A0" stroke-width="2.5" stroke-dasharray="8 6"/><circle cx="840" cy="50" r="22" fill="#25C2A0"/><text x="840" y="57" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">4</text><text x="840" y="115" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" fill="#1B2B2A">Klaim hadiah</text><text x="840" y="145" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#4B5F5C">Jika tersedia untuk</text><text x="840" y="165" text-anchor="middle" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#4B5F5C">produk ini</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="100%" height="100%" role="img" aria-label="Alur pembeli: unduh aplikasi, scan QR, lihat hasil, klaim hadiah">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0F12" />
+      <stop offset="50%" stop-color="#14151A" />
+      <stop offset="100%" stop-color="#0B0C0E" />
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1B22" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#111217" stop-opacity="0.96" />
+    </linearGradient>
+    <linearGradient id="amberGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#CC710B" />
+      <stop offset="100%" stop-color="#9A4E04" />
+    </linearGradient>
+    <linearGradient id="goldCoin2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="50%" stop-color="#EAB308" />
+      <stop offset="100%" stop-color="#CA8A04" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadowGlow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.5" />
+      <feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#CC710B" flood-opacity="0.15" />
+    </filter>
+    <filter id="dotGlow2" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#CC710B" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="996" height="326" rx="20" fill="url(#bgGrad2)" stroke="#26211A" stroke-width="1.5" />
+
+  <!-- Header Badge -->
+  <g transform="translate(25, 22)">
+    <rect x="0" y="0" width="190" height="26" rx="13" fill="#CC710B" fill-opacity="0.12" stroke="#CC710B" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="14" cy="13" r="4" fill="#CC710B" filter="url(#dotGlow2)" />
+    <text x="26" y="17" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#E68817" letter-spacing="1">4 LANGKAH PEMBELI</text>
+    <text x="205" y="18" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#9CA3AF">Alur mudah verifikasi keaslian barang dan klaim reward</text>
+  </g>
+
+  <!-- ==================== CARD 1: UNDUH APLIKASI ==================== -->
+  <g transform="translate(20, 64)">
+    <rect x="0" y="0" width="225" height="244" rx="16" fill="url(#cardGrad2)" stroke="#33271D" stroke-width="1.5" filter="url(#shadowGlow2)" />
+    <rect x="1" y="1" width="223" height="3" rx="1.5" fill="url(#amberGrad2)" />
+
+    <!-- Step Chip -->
+    <rect x="14" y="14" width="28" height="28" rx="8" fill="url(#amberGrad2)" />
+    <text x="28" y="33" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">1</text>
+    <text x="50" y="32" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#CC710B" letter-spacing="0.5">INSTALASI</text>
+
+    <!-- Visual: Phone with Download Icon -->
+    <g transform="translate(112, 95)">
+      <rect x="-20" y="-34" width="40" height="66" rx="8" fill="#15171C" stroke="#4B3B2B" stroke-width="1.8" />
+      <rect x="-16" y="-28" width="32" height="54" rx="5" fill="#0D0E12" />
+      <!-- Download Arrow Circle -->
+      <circle cx="0" cy="-2" r="14" fill="#CC710B" fill-opacity="0.18" stroke="#CC710B" stroke-width="1.5" />
+      <path d="M0 -9 L0 5 M-4 1 L0 5 L4 1" fill="none" stroke="#F59E0B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+      <!-- Store Logos Pill -->
+      <rect x="-24" y="14" width="48" height="9" rx="4.5" fill="#241B13" stroke="#CC710B" stroke-opacity="0.4" stroke-width="1" />
+      <text x="0" y="21" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="6.5" font-weight="700" fill="#E68817">GOOGLE PLAY</text>
+    </g>
+
+    <!-- Content -->
+    <text x="112" y="172" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Unduh Aplikasi</text>
+    <text x="112" y="194" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF">Tersedia gratis di Android</text>
+    <text x="112" y="212" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF">Masuk atau buat akun</text>
+  </g>
+
+  <!-- Arrow 1 -> 2 -->
+  <g transform="translate(247, 180)">
+    <line x1="0" y1="0" x2="16" y2="0" stroke="#CC710B" stroke-width="2.5" stroke-dasharray="3 3" />
+    <polygon points="20,0 13,-4 13,4" fill="#CC710B" />
+  </g>
+
+  <!-- ==================== CARD 2: SCAN QR ==================== -->
+  <g transform="translate(270, 64)">
+    <rect x="0" y="0" width="225" height="244" rx="16" fill="url(#cardGrad2)" stroke="#33271D" stroke-width="1.5" filter="url(#shadowGlow2)" />
+    <rect x="1" y="1" width="223" height="3" rx="1.5" fill="url(#amberGrad2)" />
+
+    <!-- Step Chip -->
+    <rect x="14" y="14" width="28" height="28" rx="8" fill="url(#amberGrad2)" />
+    <text x="28" y="33" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">2</text>
+    <text x="50" y="32" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#CC710B" letter-spacing="0.5">PEMINDAIAN</text>
+
+    <!-- Visual: Camera Viewfinder with QR & Laser -->
+    <g transform="translate(112, 95)">
+      <!-- Viewfinder corners -->
+      <path d="M-26 -16 V-26 H-16" fill="none" stroke="#CC710B" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M26 -16 V-26 H16" fill="none" stroke="#CC710B" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M-26 16 V26 H-16" fill="none" stroke="#CC710B" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M26 16 V26 H16" fill="none" stroke="#CC710B" stroke-width="2.5" stroke-linecap="round" />
+      <!-- QR in center -->
+      <rect x="-18" y="-18" width="36" height="36" rx="4" fill="#FFFFFF" />
+      <rect x="-14" y="-14" width="10" height="10" fill="#111827" />
+      <rect x="-12" y="-12" width="6" height="6" fill="#FFFFFF" />
+      <rect x="4" y="-14" width="10" height="10" fill="#111827" />
+      <rect x="6" y="-12" width="6" height="6" fill="#FFFFFF" />
+      <rect x="-14" y="4" width="10" height="10" fill="#111827" />
+      <rect x="-12" y="6" width="6" height="6" fill="#FFFFFF" />
+      <rect x="2" y="4" width="6" height="6" fill="#CC710B" />
+      <!-- Scanning Laser -->
+      <line x1="-24" y1="0" x2="24" y2="0" stroke="#CC710B" stroke-width="2" />
+      <polygon points="-24,0 24,0 18,-10 -18,-10" fill="#CC710B" fill-opacity="0.25" />
+    </g>
+
+    <!-- Content -->
+    <text x="112" y="172" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Scan QR Kemasan</text>
+    <text x="112" y="194" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF">Arahkan kamera ponsel</text>
+    <text x="112" y="212" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF">ke stiker unik di kemasan</text>
+  </g>
+
+  <!-- Arrow 2 -> 3 -->
+  <g transform="translate(497, 180)">
+    <line x1="0" y1="0" x2="16" y2="0" stroke="#CC710B" stroke-width="2.5" stroke-dasharray="3 3" />
+    <polygon points="20,0 13,-4 13,4" fill="#CC710B" />
+  </g>
+
+  <!-- ==================== CARD 3: HASIL VERIFIKASI ==================== -->
+  <g transform="translate(520, 64)">
+    <rect x="0" y="0" width="225" height="244" rx="16" fill="url(#cardGrad2)" stroke="#33271D" stroke-width="1.5" filter="url(#shadowGlow2)" />
+    <rect x="1" y="1" width="223" height="3" rx="1.5" fill="url(#amberGrad2)" />
+
+    <!-- Step Chip -->
+    <rect x="14" y="14" width="28" height="28" rx="8" fill="url(#amberGrad2)" />
+    <text x="28" y="33" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">3</text>
+    <text x="50" y="32" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#CC710B" letter-spacing="0.5">VALIDASI</text>
+
+    <!-- Visual: Verified Shield with Ribbon -->
+    <g transform="translate(112, 95)">
+      <!-- Shield -->
+      <path d="M0 -26 L22 -16 V2 C22 18 0 28 0 28 C0 28 -22 18 -22 2 V-16 Z" fill="#141E1A" stroke="url(#emeraldGrad2)" stroke-width="2.2" />
+      <circle cx="0" cy="4" r="14" fill="#064E3B" />
+      <path d="M-5 4 L-1 8 L7 0" fill="none" stroke="#34D399" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <!-- Star/Sparkle -->
+      <circle cx="18" cy="-18" r="3" fill="#F59E0B" filter="url(#dotGlow2)" />
+      <!-- Certified Pill -->
+      <rect x="-24" y="24" width="48" height="10" rx="5" fill="#065F46" />
+      <text x="0" y="31.5" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="7" font-weight="700" fill="#D1FAE5">TERVERIFIKASI</text>
+    </g>
+
+    <!-- Content -->
+    <text x="112" y="172" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Lihat Hasilnya</text>
+    <text x="112" y="194" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF">Sertifikat keaslian resmi &amp;</text>
+    <text x="112" y="212" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF">data produk langsung tampil</text>
+  </g>
+
+  <!-- Arrow 3 -> 4 -->
+  <g transform="translate(747, 180)">
+    <line x1="0" y1="0" x2="16" y2="0" stroke="#CC710B" stroke-width="2.5" stroke-dasharray="3 3" />
+    <polygon points="20,0 13,-4 13,4" fill="#CC710B" />
+  </g>
+
+  <!-- ==================== CARD 4: KLAIM HADIAH ==================== -->
+  <g transform="translate(770, 64)">
+    <rect x="0" y="0" width="225" height="244" rx="16" fill="url(#cardGrad2)" stroke="#CC710B" stroke-width="2" filter="url(#shadowGlow2)" />
+    <rect x="1" y="1" width="223" height="3" rx="1.5" fill="url(#amberGrad2)" />
+
+    <!-- Step Chip -->
+    <rect x="14" y="14" width="28" height="28" rx="8" fill="url(#amberGrad2)" />
+    <text x="28" y="33" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">4</text>
+    <text x="50" y="32" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#E68817" letter-spacing="0.5">REWARD FTN</text>
+
+    <!-- Visual: Gift Box + Radiating FTN Coin -->
+    <g transform="translate(112, 95)">
+      <!-- Gift box body -->
+      <rect x="-20" y="-8" width="40" height="32" rx="4" fill="#3D2613" stroke="#CC710B" stroke-width="1.5" />
+      <rect x="-24" y="-16" width="48" height="10" rx="3" fill="#CC710B" />
+      <!-- Ribbon vertical -->
+      <rect x="-4" y="-16" width="8" height="40" fill="#F59E0B" />
+      <!-- Floating Coin -->
+      <g transform="translate(0, -26)">
+        <circle cx="0" cy="0" r="14" fill="url(#goldCoin2)" stroke="#92400E" stroke-width="1.5" filter="url(#dotGlow2)" />
+        <polygon points="0,-7 6,-1 0,7 -6,-1" fill="#FFFFFF" fill-opacity="0.9" />
+      </g>
+      <!-- Sparkle stars -->
+      <polygon points="22,-20 23.5,-16 27,-15 23.5,-14 22,-10 20.5,-14 17,-15 20.5,-16" fill="#FDE047" />
+      <polygon points="-22,-22 -20.5,-18 -17,-17 -20.5,-16 -22,-12 -23.5,-16 -27,-17 -23.5,-18" fill="#CC710B" />
+    </g>
+
+    <!-- Content -->
+    <text x="112" y="172" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Klaim Hadiah Token</text>
+    <text x="112" y="194" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF">Dapatkan token FTN masuk</text>
+    <text x="112" y="212" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#9CA3AF">ke wallet dari brand favorit</text>
+  </g>
+</svg>

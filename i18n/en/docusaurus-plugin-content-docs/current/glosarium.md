@@ -1,43 +1,61 @@
 ---
 sidebar_position: 8
 title: "Glossary"
-description: "Explanations of terms used in the Flagshiiip guide."
+description: "Explanations of terms used in the Flagshiiip documentation."
 ---
 
 # Glossary
 
-**Blockchain**
-A digital recording technology that helps keep data secure and hard to change. You do not need to understand it to use Flagshiiip.
+**Blockchain**  
+A distributed digital ledger technology that ensures data remains secure, verifiable, and tamper-proof. You do not need technical knowledge of it to use Flagshiiip.
 
-**Brand**
-The maker or owner of a product that puts Flagshiiip stickers on it.
+**Brand**  
+The manufacturer or product owner who applies Flagshiiip smart stickers to packaging to prevent counterfeiting and reward customers.
 
-**Digital certificate of authenticity**
-Proof in the app that your product is authentic and officially registered.
+**CertiK**  
+A leading global Web3 cybersecurity audit firm that audited and verified the security of Flagshiiip smart contracts.
 
-**Flagshiiip sticker**
-The sticker on product packaging that carries a unique QR code.
+**flagshiiip.com**  
+The official commercial portal focusing on physical product verification solutions, smart sticker packages, and analytics dashboards for brand owners.
 
-**FTN Apps**
-The name of the Flagshiiip app on Google Play.
+**flagshiiip.io**  
+The official Web3 and token ecosystem portal focusing on FTN loyalty tokenization, tokenomics transparency, and smart contracts (*Where Loyalty Becomes an Asset*).
 
-**QR code**
-A black-and-white patterned square that is read with a phone camera.
+**FTN (Flagshiiip Tokenium)**  
+The official digital utility and loyalty token within the Flagshiiip ecosystem, rewarded to buyers of authentic products with no expiration date.
 
-**Loyalty program**
-A rewards program for loyal customers. At Flagshiiip, the reward is a token.
+**Flagshiiip App**  
+The consumer app for scanning QR codes, checking authenticity certificates, and recording product ownership. The Android download is available through Google Play.
 
-**Seed phrase**
-A secret set of words used to recover a wallet. Never share it with anyone.
+**Gasless Transaction**  
+A transaction mechanism where all blockchain computing fees are absorbed by the system, ensuring users pay zero network or gas fees.
 
-**Token**
-A kind of digital point that can be received as a reward from a brand.
+**Polygon**  
+An energy-efficient Ethereum Layer-2 blockchain network that powers the recording of authenticity certificates and FTN tokens.
 
-**Tokenomics**
-The rules for a token's amount, distribution, and function.
+**QR Code**  
+A unique two-dimensional matrix code printed on packaging stickers that can be scanned using a mobile camera in seconds.
 
-**Verification**
-The process of checking whether a product is authentic.
+**Single-Scan Nonce Lock**  
+A cryptographic mechanism ensuring each physical sticker can only be claimed once, preventing unauthorized cloning or photocopied counterfeits.
 
-**Wallet**
-A digital purse for keeping tokens.
+**Loyalty Program**  
+A customer reward initiative that transforms standard product verifications into valuable, permanent FTN digital token assets.
+
+**Seed Phrase**  
+A secret recovery phrase used to restore a manual crypto wallet. Never share your seed phrase with anyone.
+
+**Digital Certificate of Authenticity**  
+Official digital proof of product authenticity and verified ownership stored directly within your mobile app.
+
+**Flagshiiip Sticker**  
+A physical smart sticker affixed to product packaging containing an encrypted, unique QR code.
+
+**Tokenomics**  
+The economic framework governing supply, distribution allocation, and utility of FTN tokens within the Flagshiiip ecosystem.
+
+**Verification**  
+The automated real-time process that confirms whether a product is genuine and officially registered.
+
+**Wallet**  
+A secure digital wallet used to hold your FTN tokens and product authenticity certificates.

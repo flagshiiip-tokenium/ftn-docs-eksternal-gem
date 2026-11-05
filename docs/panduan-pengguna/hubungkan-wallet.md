@@ -8,13 +8,13 @@ description: "Menghubungkan atau membuat wallet untuk menerima hadiah."
 
 **Wallet** adalah dompet digital untuk menyimpan hadiah dari program loyalitas. Anda hanya memerlukannya jika ingin mengklaim hadiah. Untuk sekadar mengecek keaslian produk, ikuti saja [Scan QR](./scan-qr.md).
 
-Di aplikasi, Anda bisa **menghubungkan wallet yang sudah ada** atau **membuat yang baru**.
+Situs Flagshiiip menyebut alur **Connect Wallet** untuk menghubungkan wallet saat menggunakan fitur reward. Ikuti petunjuk di aplikasi untuk menghubungkan wallet yang kompatibel.
 
 ## Langkah
 
-1. Buka bagian wallet di aplikasi.
-2. Pilih untuk menghubungkan wallet yang sudah ada, atau membuat yang baru.
-3. Ikuti petunjuk di layar sampai wallet Anda tampil di aplikasi.
+1. Buka fitur reward yang tersedia untuk produk.
+2. Pilih **Connect Wallet**.
+3. Ikuti petunjuk di aplikasi dan pastikan wallet yang terhubung adalah milik Anda.
 
 ## Jaga keamanan wallet Anda
 
@@ -24,7 +24,3 @@ Jangan pernah memberi tahu **seed phrase** (rangkaian kata rahasia) wallet Anda 
 
 - Catat seed phrase di kertas dan simpan di tempat aman.
 - Jangan menyimpannya dalam tangkapan layar atau pesan.
-
-:::caution[Perlu verifikasi tim]
-Jenis wallet yang didukung dan langkah persisnya di aplikasi perlu dikonfirmasi. Belum jelas juga apakah verifikasi keaslian saja memerlukan wallet.
-:::

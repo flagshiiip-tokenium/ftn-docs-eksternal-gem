@@ -1,23 +1,19 @@
 ---
 sidebar_position: 3
-title: "Catatan Kepemilikan Produk"
-description: "Menyimpan catatan produk yang sudah Anda verifikasi di aplikasi."
+title: "Catatan Kepemilikan Digital"
+description: "Melihat sertifikat dan mencatat produk yang sudah Anda verifikasi."
 ---
 
-# Catatan Kepemilikan Produk
+# Catatan Kepemilikan Digital
 
-Selain mengecek keaslian, aplikasi Flagshiiip dapat mencatat produk yang sudah Anda verifikasi, sehingga Anda bisa melihatnya lagi kapan saja.
+Setelah QR produk berhasil dipindai, aplikasi menampilkan sertifikat keaslian digital. Aplikasi juga menyediakan pencatatan kepemilikan produk agar riwayat verifikasi dapat dilihat kembali.
 
 ## Yang bisa Anda lakukan
 
 - Melihat kembali sertifikat keaslian produk yang pernah Anda scan.
-- Menyimpan catatan bahwa produk tersebut milik Anda.
+- Mencatat kepemilikan produk untuk referensi di kemudian hari.
 
 ## Kapan berguna?
 
-- Saat ingin membuktikan bahwa produk Anda asli.
+- Saat ingin menunjukkan sertifikat keaslian produk.
 - Saat Anda ingin mengecek kembali produk yang pernah dibeli.
-
-:::caution[Perlu verifikasi tim]
-Fitur apa saja yang tersedia pada catatan kepemilikan dan tampilannya di aplikasi perlu dicocokkan dengan versi terbaru.
-:::

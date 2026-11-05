@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 920" role="img" aria-label="Alur pemesanan stiker dalam lima langkah">
+  <rect x="1" y="1" width="418" height="918" rx="22" fill="#f9fafb" stroke="#e5e7eb" stroke-width="2"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <g>
+      <rect x="16" y="16" width="388" height="150" rx="18" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+      <circle cx="48" cy="50" r="20" fill="#CC710B"/>
+      <text x="48" y="56" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">1</text>
+      <text x="80" y="48" font-size="12" font-weight="700" fill="#8f4f08">REGISTRASI</text>
+      <text x="34" y="94" font-size="19" font-weight="700" fill="#111827">Daftar dan Verifikasi</text>
+      <text x="34" y="122" font-size="13" fill="#6b7280">Buat akun, verifikasi email, lalu</text>
+      <text x="34" y="143" font-size="13" fill="#6b7280">masuk ke dashboard.</text>
+    </g>
+    <path d="M210 168v22m-7-8 7 8 7-8" fill="none" stroke="#CC710B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <rect x="16" y="196" width="388" height="150" rx="18" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+      <circle cx="48" cy="230" r="20" fill="#CC710B"/>
+      <text x="48" y="236" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">2</text>
+      <text x="80" y="228" font-size="12" font-weight="700" fill="#8f4f08">PROFIL USAHA</text>
+      <text x="34" y="274" font-size="19" font-weight="700" fill="#111827">Lengkapi Profil</text>
+      <text x="34" y="302" font-size="13" fill="#6b7280">Isi data usaha dan unggah dokumen,</text>
+      <text x="34" y="323" font-size="13" fill="#6b7280">lalu tunggu verifikasi.</text>
+    </g>
+    <path d="M210 348v22m-7-8 7 8 7-8" fill="none" stroke="#CC710B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <rect x="16" y="376" width="388" height="150" rx="18" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+      <circle cx="48" cy="410" r="20" fill="#CC710B"/>
+      <text x="48" y="416" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">3</text>
+      <text x="80" y="408" font-size="12" font-weight="700" fill="#8f4f08">DATA PRODUK</text>
+      <text x="34" y="454" font-size="19" font-weight="700" fill="#111827">Daftarkan Produk</text>
+      <text x="34" y="482" font-size="13" fill="#6b7280">Lengkapi informasi produk, tautan</text>
+      <text x="34" y="503" font-size="13" fill="#6b7280">toko, dan dokumen yang diminta.</text>
+    </g>
+    <path d="M210 528v22m-7-8 7 8 7-8" fill="none" stroke="#CC710B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <rect x="16" y="556" width="388" height="150" rx="18" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+      <circle cx="48" cy="590" r="20" fill="#CC710B"/>
+      <text x="48" y="596" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">4</text>
+      <text x="80" y="588" font-size="12" font-weight="700" fill="#8f4f08">ORDER STIKER</text>
+      <text x="34" y="634" font-size="19" font-weight="700" fill="#111827">Pesan dan Bayar</text>
+      <text x="34" y="662" font-size="13" fill="#6b7280">Pilih produk dan opsi cetak, isi</text>
+      <text x="34" y="683" font-size="13" fill="#6b7280">jumlah minimum 1.040, lalu bayar.</text>
+    </g>
+    <path d="M210 708v22m-7-8 7 8 7-8" fill="none" stroke="#CC710B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <g>
+      <rect x="16" y="736" width="388" height="150" rx="18" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+      <circle cx="48" cy="770" r="20" fill="#CC710B"/>
+      <text x="48" y="776" text-anchor="middle" font-size="16" font-weight="700" fill="#111827">5</text>
+      <text x="80" y="768" font-size="12" font-weight="700" fill="#8f4f08">ANALITIK</text>
+      <text x="34" y="814" font-size="19" font-weight="700" fill="#111827">Pantau Persebaran</text>
+      <text x="34" y="842" font-size="13" fill="#6b7280">Lihat ringkasan di Beranda dan</text>
+      <text x="34" y="863" font-size="13" fill="#6b7280">rincian di menu Analitik.</text>
+    </g>
+  </g>
+</svg>

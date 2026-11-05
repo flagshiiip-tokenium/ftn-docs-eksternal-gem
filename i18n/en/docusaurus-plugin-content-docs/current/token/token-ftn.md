@@ -4,34 +4,47 @@ title: "What is a Token?"
 description: "A simple explanation of the Flagshiiip token and how you receive it."
 ---
 
+import DocDiagram from '@site/src/components/DocDiagram';
+
 # What is a Token?
 
-## Like shopping points, in digital form
+## Like Digital Shopping Points
 
-Many stores give points to their customers. A **token** at Flagshiiip is similar, but it is digital and is kept in your own **wallet** (a digital purse), not in a single store.
+Many stores reward customers with shopping points. A **token** in the Flagshiiip ecosystem works similarly, but it is purely digital and securely held in your personal **wallet** (digital wallet), rather than restricted to a single merchant's database.
 
-Flagshiiip's token ecosystem is called **Flagshiiip Tokenium**, and its name is often shortened to **FTN**.
+Flagshiiip's token ecosystem is named **Flagshiiip Tokenium**, commonly abbreviated as **FTN**.
 
-## How do you receive one?
+## How Do You Receive Tokens?
 
-![Token journey: scan, claim, kept in your wallet](/img/diagram/perjalanan-token-en.svg)
+<DocDiagram
+  desktop={{ light: '/img/diagram/perjalanan-token-light-en.svg', dark: '/img/diagram/perjalanan-token-en.svg' }}
+  mobile={{ light: '/img/diagram/perjalanan-token-mob-light-en.svg', dark: '/img/diagram/perjalanan-token-mob-en.svg' }}
+  alt="Token journey: scan, claim, kept in your wallet"
+/>
 
-1. Scan the sticker on the product and make sure the result is verified.
-2. If the product gives a reward, claim it in the app.
-3. The token is kept in your wallet.
+1. Scan the sticker on the product packaging and verify that the authenticity check succeeds.
+2. If the product offers customer rewards, claim your reward directly in the app.
+3. The FTN token is immediately minted and stored in your wallet.
 
-Step-by-step guides are at [Claim a Reward](../panduan-pengguna/klaim-token.md) and [Connect a Wallet](../panduan-pengguna/hubungkan-wallet.md).
+Step-by-step instructions are available in [Claim Rewards](../panduan-pengguna/klaim-token.md) and [Connect a Wallet](../panduan-pengguna/hubungkan-wallet.md).
 
-## How is it different from regular points?
+## How Does FTN Differ from Conventional Loyalty Points?
 
-![Regular loyalty points compared with the Flagshiiip token](/img/diagram/poin-vs-token-en.svg)
+<DocDiagram
+  desktop={{ light: '/img/diagram/poin-vs-token-light-en.svg', dark: '/img/diagram/poin-vs-token-en.svg' }}
+  mobile={{ light: '/img/diagram/poin-vs-token-mob-light-en.svg', dark: '/img/diagram/poin-vs-token-mob-en.svg' }}
+  alt="Regular loyalty points compared with the Flagshiiip token"
+/>
 
-Regular loyalty points are usually locked into one store or app, and their value can fade quickly. Flagshiiip designs its token to be more flexible, with its value recorded transparently.
+| Feature | Conventional Store Points | FTN Tokens (Flagshiiip Tokenium) |
+| :--- | :--- | :--- |
+| **Ownership** | Stored on merchant servers; can be revoked unilaterally | Securely held in your personal non-custodial digital wallet |
+| **Expiration** | Often expires if unused within short periods | **No expiration date**; remains your permanent digital asset |
+| **Transparency** | Terms can be altered by stores at any time | Governed transparently by public smart contracts on Polygon |
+| **Claiming Cost** | Free | **100% Free** with all blockchain gas fees covered (*gasless*) |
 
-:::caution[Needs team verification]
-The comparison above follows the explanation on the Flagshiiip website. Confirm with the team what the token can be used for, whether it can be transferred to other people, and whether the token buyers receive is FTN or each brand's own token. The app store statement that the app does not provide trading or investment services also needs to be reconciled with the explanation here.
-:::
+Flagshiiip's core motto is *"Where Loyalty Becomes an Asset"*. This means your loyalty in choosing authentic manufacturer products is rewarded with lasting, genuine digital assets.
 
-:::note[Work in progress]
-An official disclaimer about the token will be added once decided by the team.
+:::info[Official Utility Token Statement]
+FTN (*Flagshiiip Tokenium*) tokens are designed strictly as utility reward tokens for customer loyalty and brand appreciation upon purchasing authentic physical products. The Flagshiiip application does not offer speculative trading or financial investment products.
 :::

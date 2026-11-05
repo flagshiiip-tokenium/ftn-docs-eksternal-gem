@@ -1,36 +1,46 @@
 import React from 'react';
 import {translate} from '@docusaurus/Translate';
 import Layout from '@theme/Layout';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 import HeroSection from '@site/src/components/HeroSection';
 import CategoryMarquee from '@site/src/components/CategoryMarquee';
-import ComparisonSection from '@site/src/components/ComparisonSection';
-import FeaturesBento from '@site/src/components/FeaturesBento';
-import WorkflowSection from '@site/src/components/WorkflowSection';
-import CtaSection from '@site/src/components/CtaSection';
+import QuickLinksSection from '@site/src/components/QuickLinksSection';
+import StepsSection from '@site/src/components/StepsSection';
+import WhyFlagshiiipSection from '@site/src/components/WhyFlagshiiipSection';
+import BrandBanner from '@site/src/components/BrandBanner';
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-
   return (
     <Layout
       title={translate({
         id: 'homepage.layoutTitle',
-        message: 'Flagshiiip Docs - Panduan Verifikasi Produk Asli & Hadiah Digital',
+        message: 'Dokumentasi Flagshiiip',
       })}
       description={translate({
         id: 'homepage.layoutDescription',
         message:
-          'Panduan resmi verifikasi keaslian produk fisik dengan stiker pintar dan program hadiah digital Flagshiiip (FTN) yang mudah digunakan oleh siapa saja.',
-      })}>
+          'Bantu pastikan barang yang kamu beli asli, cukup scan stiker di kemasan pakai kamera ponsel.',
+      })}
+    >
       <main>
+        {/* Urutan dan isi halaman utama dikelola lewat komponen per bagian. */}
+        {/* 1. Hero */}
         <HeroSection />
+
+        {/* 2. Mitra dan integrasi */}
         <CategoryMarquee />
-        <ComparisonSection />
-        <FeaturesBento />
-        <WorkflowSection />
-        <CtaSection />
+
+        {/* 3. Tautan cepat */}
+        <QuickLinksSection />
+
+        {/* 4. Alur pemeriksaan keaslian */}
+        <StepsSection />
+
+        {/* 5. Manfaat Flagshiiip */}
+        <WhyFlagshiiipSection />
+
+        {/* 6. Informasi untuk brand */}
+        <BrandBanner />
       </main>
     </Layout>
   );

@@ -330,10 +330,136 @@
     "message": "What is Flagshiiip? (Start Here)"
   },
   "homepage.layoutTitle": {
-    "message": "Home"
+    "message": "Flagshiiip Documentation"
   },
   "homepage.layoutDescription": {
     "message": "Official documentation for the Flagshiiip platform"
+  },
+  "hero.friendlyTitle": {
+    "message": "Check your product's authenticity"
+  },
+  "hero.friendlySubtitle": {
+    "message": "Flagshiiip is a blockchain-powered physical product verification and digital asset ecosystem. Simply scan the smart sticker with a unique QR code on the packaging using your phone camera to instantly verify authenticity, secure official digital ownership certificates, and claim FTN token rewards from your favorite brands."
+  },
+  "hero.cta.start": {
+    "message": "Get Started"
+  },
+  "hero.cta.download": {
+    "message": "Download App"
+  },
+  "marquee.title": {
+    "message": "POWERING TOOLS AND INTEGRATION FROM COMPANIES ALL AROUND THE WORLD"
+  },
+  "steps.eyebrow": {
+    "message": "HOW IT WORKS"
+  },
+  "steps.title": {
+    "message": "Check Authenticity in 4 Steps"
+  },
+  "steps.subtitle": {
+    "message": "The verification system is designed to be simple and fast without requiring any technical expertise."
+  },
+  "steps.step1.title": {
+    "message": "Find the sticker"
+  },
+  "steps.step1.desc": {
+    "message": "On product packaging with unique QR code"
+  },
+  "steps.step2.title": {
+    "message": "Scan with phone"
+  },
+  "steps.step2.desc": {
+    "message": "Open the app, then point camera to sticker"
+  },
+  "steps.step3.title": {
+    "message": "See the result"
+  },
+  "steps.step3.desc": {
+    "message": "Authenticity certificate appears immediately"
+  },
+  "steps.step4.title": {
+    "message": "Claim reward"
+  },
+  "steps.step4.desc": {
+    "message": "If the product offers customer rewards"
+  },
+  "steps.viewDetail": {
+    "message": "Learn the full product journey"
+  },
+  "quickLinks.eyebrow": {
+    "message": "USER NAVIGATION"
+  },
+  "quickLinks.title": {
+    "message": "Quick Links"
+  },
+  "quickLinks.subtitle": {
+    "message": "Choose a topic you would like to explore to get started with Flagshiiip."
+  },
+  "quickLinks.scanQr.title": {
+    "message": "Scan QR"
+  },
+  "quickLinks.scanQr.desc": {
+    "message": "Point your camera at the sticker on the packaging."
+  },
+  "quickLinks.verify.title": {
+    "message": "Check Authenticity"
+  },
+  "quickLinks.verify.desc": {
+    "message": "Understand verification status indicators and digital certificates."
+  },
+  "quickLinks.claim.title": {
+    "message": "Claim Rewards"
+  },
+  "quickLinks.claim.desc": {
+    "message": "Collect digital FTN token rewards from your favorite brands."
+  },
+  "quickLinks.help.title": {
+    "message": "Troubleshooting"
+  },
+  "quickLinks.help.desc": {
+    "message": "Quick solutions if stickers are damaged or scanning fails."
+  },
+  "quickLinks.faq.title": {
+    "message": "FAQ"
+  },
+  "quickLinks.faq.desc": {
+    "message": "Frequently asked questions about accounts and features."
+  },
+  "whyFlagshiiip.eyebrow": {
+    "message": "CORE VALUES"
+  },
+  "whyFlagshiiip.title": {
+    "message": "Why Flagshiiip?"
+  },
+  "whyFlagshiiip.subtitle": {
+    "message": "A physical product verification solution providing certainty for buyers and added value from trusted manufacturers."
+  },
+  "whyFlagshiiip.benefit1.title": {
+    "message": "Practical & Instant"
+  },
+  "whyFlagshiiip.benefit1.desc": {
+    "message": "Simply open your phone camera and point it at the product sticker. Authenticity results appear in seconds without special tools."
+  },
+  "whyFlagshiiip.benefit2.title": {
+    "message": "Digital Proof of Ownership"
+  },
+  "whyFlagshiiip.benefit2.desc": {
+    "message": "An official digital certificate is stored on your phone as valid proof of ownership whenever you need it."
+  },
+  "whyFlagshiiip.benefit3.title": {
+    "message": "Buyer Appreciation"
+  },
+  "whyFlagshiiip.benefit3.desc": {
+    "message": "Receive FTN tokens directly to your account from partner brands as appreciation for choosing authentic products."
+  },
+  "brandBanner.badge": {
+    "message": "For Brands"
+  },
+  "brandBanner.text": {
+    "message": "Brand owner or official manufacturer? Discover product authenticity protection and partnership programs."
+  },
+  "brandBanner.link": {
+    "message": "Visit flagshiiip.com"
   },
   "homepage.feature1.title": {
     "message": "Authenticity Verification"
@@ -352,5 +478,110 @@
   },
   "homepage.feature3.description": {
     "message": "A customer loyalty program powered by blockchain technology."
+  },
+  "hero.eyebrow": {
+    "message": "PHYSICAL PRODUCT AUTHENTICITY & DIGITAL LOYALTY ECOSYSTEM"
+  },
+  "hero.cta.about": {
+    "message": "About Flagshiiip"
+  },
+  "hero.hl1.title": {
+    "message": "Anti-Counterfeit"
+  },
+  "hero.hl1.desc": {
+    "message": "Unique smart QR sticker, single claim per item."
+  },
+  "hero.hl2.title": {
+    "message": "Digital Certificate"
+  },
+  "hero.hl2.desc": {
+    "message": "Valid ownership proof secured on Polygon blockchain."
+  },
+  "hero.hl3.title": {
+    "message": "FTN Loyalty Token"
+  },
+  "hero.hl3.desc": {
+    "message": "Turn shopping loyalty into real digital assets."
+  },
+  "hero.trust1": {
+    "message": "100% Free for Buyers"
+  },
+  "hero.trust2": {
+    "message": "Powered by Polygon"
+  },
+  "hero.trust3": {
+    "message": "Safe & Verified"
+  },
+  "comparison.eyebrow": {
+    "message": "PERBANDINGAN SOLUSI • KEAMANAN MUTLAK"
+  },
+  "comparison.title.part1": {
+    "message": "Mengapa barcode konvensional"
+  },
+  "comparison.title.part2": {
+    "message": "tidak lagi melindungi produk?"
+  },
+  "comparison.subtitle": {
+    "message": "Barcode hitam-putih biasa sangat mudah difotokopi oleh sindikat pemalsu, dan poin belanja konvensional sering hangus sepihak. Flagshiiip hadir dengan stiker pintar berkunci kriptografi dan hadiah aset digital permanen."
+  },
+  "comparison.conventional.badge": {
+    "message": "Sistem Lama • Sering Merugikan"
+  },
+  "comparison.conventional.title": {
+    "message": "Barcode Biasa & Poin Toko Tradisional"
+  },
+  "comparison.conventional.desc": {
+    "message": "Sistem lama yang mudah ditiru sindikat barang palsu dan minim perlindungan untuk pembeli."
+  },
+  "comparison.flagshiiip.badge": {
+    "message": "Solusi Flagshiiip • Pasti Aman & Menguntungkan"
+  },
+  "comparison.flagshiiip.title": {
+    "message": "Stiker Pintar Flagshiiip & Hadiah FTN"
+  },
+  "comparison.flagshiiip.desc": {
+    "message": "Perlindungan total keaslian produk fisik dan program hadiah digital bernilai riil untuk pembeli."
+  },
+  "cta.badge": {
+    "message": "MULAI SEKARANG • GRATIS & INSTAN"
+  },
+  "cta.title.part1": {
+    "message": "Siap menghubungkan produk fisik"
+  },
+  "cta.title.part2": {
+    "message": "ke ekosistem aset digital?"
+  },
+  "cta.subtitle": {
+    "message": "Pelajari panduan praktis cara memindai kemasan barang belanjaan Anda lewat aplikasi, atau daftarkan merek bisnis Anda untuk memutus rantai pemalsuan dan membangun loyalitas pelanggan bernilai riil."
+  },
+  "cta.btn.user": {
+    "message": "Mulai Panduan Pengguna"
+  },
+  "cta.btn.brand": {
+    "message": "Solusi untuk Pemilik Brand"
+  },
+  "features.eyebrow": {
+    "message": "FITUR EKOSISTEM • MADE FOR EVERYONE"
+  },
+  "features.title.part1": {
+    "message": "Didesain untuk kemudahan."
+  },
+  "features.title.part2": {
+    "message": "Dibangun untuk skala enterprise."
+  },
+  "features.subtitle": {
+    "message": "Tidak perlu mengerti istilah kripto rumit. Flagshiiip dirancang agar siapa pun bisa memastikan keaslian barang belanjaan dan menerima aset digital bernilai hanya dengan satu kali scan kamera ponsel."
+  },
+  "workflow.eyebrow": {
+    "message": "ARSITEKTUR • ALUR PENGGUNA"
+  },
+  "workflow.title.part1": {
+    "message": "Dari kemasan produk fisik"
+  },
+  "workflow.title.part2": {
+    "message": "menjadi aset digital di saku Anda."
+  },
+  "workflow.subtitle": {
+    "message": "Dari rak toko ritel hingga hadiah tersimpan di dompet digital Anda, seluruh proses berjalan otomatis tanpa gesekan teknis."
   }
 }

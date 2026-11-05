@@ -46,5 +46,13 @@
   "sidebar.tutorialSidebar.category.Token": {
     "message": "Token",
     "description": "The label for category 'Token' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Untuk Brand": {
+    "message": "For Brands",
+    "description": "The label for category 'Untuk Brand' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Standar Operasional Prosedur": {
+    "message": "Standard Operating Procedures",
+    "description": "The label for category 'Standar Operasional Prosedur' in sidebar 'tutorialSidebar'"
   }
 }

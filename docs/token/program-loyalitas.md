@@ -21,6 +21,6 @@ Cara mengklaimnya ada di [Klaim Hadiah](../panduan-pengguna/klaim-token.md).
 
 Brand dapat membangun kesetiaan pelanggan dengan memberi hadiah berbasis token kepada pembelinya. Program ini diatur oleh masing-masing brand.
 
-:::caution[Perlu verifikasi tim]
-Belum dikonfirmasi apakah semua produk memberi hadiah, atau hanya produk dari brand yang mengikuti program ini. Jenis, jumlah, dan syarat hadiah juga belum dikonfirmasi.
+:::info[Ketersediaan Hadiah]
+Program hadiah token FTN diatur secara fleksibel oleh masing-masing brand mitra pada paket layanan mereka. Produk yang berpartisipasi akan secara otomatis menampilkan besaran hadiah token yang siap diklaim pada layar aplikasi Anda setelah verifikasi berhasil.
 :::

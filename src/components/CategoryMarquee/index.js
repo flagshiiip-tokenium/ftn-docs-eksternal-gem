@@ -83,7 +83,7 @@ export default function CategoryMarquee() {
           <span className={styles.dotLeft} aria-hidden="true" />
           <h2 className={styles.marqueeTitle}>
             <Translate id="marquee.title">
-              Didukung oleh Teknologi Keamanan &amp; Enkripsi Standar Dunia
+              Didukung oleh Alat dan Integrasi dari Perusahaan di Seluruh Dunia
             </Translate>
           </h2>
           <span className={styles.dotRight} aria-hidden="true" />

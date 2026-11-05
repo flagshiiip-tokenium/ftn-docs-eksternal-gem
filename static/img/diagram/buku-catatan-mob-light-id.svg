@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 650" width="100%" height="100%" role="img" aria-label="Buku catatan bersama yang disalin di banyak tempat (versi ponsel)">
+  <defs>
+    <linearGradient id="bgGradMob4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9fafb" />
+      <stop offset="50%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f3f4f6" />
+    </linearGradient>
+    <linearGradient id="cardGradMob4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#f9fafb" stop-opacity="0.96" />
+    </linearGradient>
+    <linearGradient id="amberGradMob4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#CC710B" />
+      <stop offset="100%" stop-color="#9A4E04" />
+    </linearGradient>
+    <linearGradient id="emeraldGradMob4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <filter id="shadowGlowMob4" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+    <filter id="dotGlowMob4" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#CC710B" flood-opacity="0.6" />
+    </filter>
+    <filter id="emeraldGlowMob4" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#10B981" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="416" height="646" rx="20" fill="url(#bgGradMob4)" stroke="#e5e7eb" stroke-width="1.5" />
+
+  <!-- Header Badge -->
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="185" height="24" rx="12" fill="#CC710B" fill-opacity="0.12" stroke="#CC710B" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="12" cy="12" r="3.5" fill="#CC710B" filter="url(#dotGlowMob4)" />
+    <text x="22" y="15.5" font-family="Inter, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#8f4f08" letter-spacing="0.8">DESENTRALISASI DATA</text>
+    <text x="195" y="16.5" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#6b7280">Buku Catatan Bersama</text>
+  </g>
+
+  <!-- ==================== TOP CARD: SHARED LEDGER ==================== -->
+  <g transform="translate(20, 56)">
+    <rect x="0" y="0" width="380" height="145" rx="16" fill="url(#cardGradMob4)" stroke="#CC710B" stroke-width="1.8" filter="url(#shadowGlowMob4)" />
+    <rect x="1" y="1" width="378" height="3" rx="1.5" fill="url(#amberGradMob4)" />
+
+    <!-- Ledger & Lock Icon -->
+    <g transform="translate(56, 72)">
+      <rect x="-24" y="-22" width="48" height="44" rx="6" fill="#ffffff" stroke="#CC710B" stroke-width="2" />
+      <line x1="-8" y1="-22" x2="-8" y2="22" stroke="#d1d5db" stroke-width="2" />
+      <line x1="-2" y1="-10" x2="16" y2="-10" stroke="#CC710B" stroke-width="2" stroke-linecap="round" />
+      <line x1="-2" y1="-2" x2="16" y2="-2" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" />
+      <line x1="-2" y1="6" x2="16" y2="6" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" />
+      <circle cx="18" cy="16" r="9" fill="#10B981" />
+      <path d="M15 16 L17 18 L22 13" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- Info -->
+    <g transform="translate(108, 24)">
+      <rect x="0" y="0" width="165" height="18" rx="9" fill="#CC710B" fill-opacity="0.15" stroke="#CC710B" stroke-width="0.8" />
+      <text x="82.5" y="12" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#8f4f08">DISTRIBUTED SHARED LEDGER</text>
+
+      <text x="0" y="42" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#111827">Buku Catatan Digital</text>
+      <text x="0" y="64" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#6b7280">Riwayat &amp; sertifikat produk disimpan</text>
+      <text x="0" y="82" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#6b7280">permanen, terenkripsi, tanpa titik pusat.</text>
+      <text x="0" y="102" font-family="Inter, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#8f4f08">Konsensus kriptografi jaringan Polygon.</text>
+    </g>
+  </g>
+
+  <!-- Network Link down -->
+  <g transform="translate(210, 201)">
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#CC710B" stroke-width="2" stroke-dasharray="3 3" />
+    <circle cx="0" cy="8" r="2.5" fill="#CC710B" filter="url(#dotGlowMob4)" />
+  </g>
+
+  <!-- ==================== 3 VALIDATOR NODES ==================== -->
+  <!-- Node 1 -->
+  <g transform="translate(20, 218)">
+    <rect x="0" y="0" width="380" height="96" rx="14" fill="url(#cardGradMob4)" stroke="#e5e7eb" stroke-width="1.5" filter="url(#shadowGlowMob4)" />
+    
+    <g transform="translate(42, 48)">
+      <rect x="-16" y="-20" width="32" height="10" rx="3" fill="#ffffff" stroke="#CC710B" stroke-width="1" />
+      <circle cx="-9" cy="-15" r="2" fill="#10B981" filter="url(#emeraldGlowMob4)" />
+      <line x1="-2" y1="-15" x2="8" y2="-15" stroke="#d1d5db" stroke-width="1.5" />
+
+      <rect x="-16" y="-6" width="32" height="10" rx="3" fill="#ffffff" stroke="#CC710B" stroke-width="1" />
+      <circle cx="-9" cy="-1" r="2" fill="#10B981" filter="url(#emeraldGlowMob4)" />
+      <line x1="-2" y1="-1" x2="8" y2="-1" stroke="#d1d5db" stroke-width="1.5" />
+
+      <rect x="-16" y="8" width="32" height="10" rx="3" fill="#ffffff" stroke="#CC710B" stroke-width="1" />
+      <circle cx="-9" cy="13" r="2" fill="#10B981" filter="url(#emeraldGlowMob4)" />
+      <line x1="-2" y1="13" x2="8" y2="13" stroke="#d1d5db" stroke-width="1.5" />
+    </g>
+
+    <g transform="translate(85, 18)">
+      <rect x="0" y="0" width="125" height="18" rx="9" fill="#10B981" fill-opacity="0.15" />
+      <text x="62.5" y="12" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#047857">● SINKRON &amp; VALID</text>
+
+      <text x="0" y="38" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#111827">Node Salinan 1 (Lokasi A)</text>
+      <text x="0" y="56" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#6b7280">Komputer validator menyimpan salinan data sah.</text>
+    </g>
+  </g>
+
+  <!-- Node 2 -->
+  <g transform="translate(20, 324)">
+    <rect x="0" y="0" width="380" height="96" rx="14" fill="url(#cardGradMob4)" stroke="#e5e7eb" stroke-width="1.5" filter="url(#shadowGlowMob4)" />
+    
+    <g transform="translate(42, 48)">
+      <rect x="-16" y="-20" width="32" height="10" rx="3" fill="#ffffff" stroke="#CC710B" stroke-width="1" />
+      <circle cx="-9" cy="-15" r="2" fill="#10B981" filter="url(#emeraldGlowMob4)" />
+      <line x1="-2" y1="-15" x2="8" y2="-15" stroke="#d1d5db" stroke-width="1.5" />
+
+      <rect x="-16" y="-6" width="32" height="10" rx="3" fill="#ffffff" stroke="#CC710B" stroke-width="1" />
+      <circle cx="-9" cy="-1" r="2" fill="#10B981" filter="url(#emeraldGlowMob4)" />
+      <line x1="-2" y1="-1" x2="8" y2="-1" stroke="#d1d5db" stroke-width="1.5" />
+
+      <rect x="-16" y="8" width="32" height="10" rx="3" fill="#ffffff" stroke="#CC710B" stroke-width="1" />
+      <circle cx="-9" cy="13" r="2" fill="#10B981" filter="url(#emeraldGlowMob4)" />
+      <line x1="-2" y1="13" x2="8" y2="13" stroke="#d1d5db" stroke-width="1.5" />
+    </g>
+
+    <g transform="translate(85, 18)">
+      <rect x="0" y="0" width="125" height="18" rx="9" fill="#10B981" fill-opacity="0.15" />
+      <text x="62.5" y="12" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#047857">● SINKRON &amp; VALID</text>
+
+      <text x="0" y="38" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#111827">Node Salinan 2 (Lokasi B)</text>
+      <text x="0" y="56" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#6b7280">Memvalidasi setiap blok hash baru secara otomatis.</text>
+    </g>
+  </g>
+
+  <!-- Node 3 -->
+  <g transform="translate(20, 430)">
+    <rect x="0" y="0" width="380" height="96" rx="14" fill="url(#cardGradMob4)" stroke="#e5e7eb" stroke-width="1.5" filter="url(#shadowGlowMob4)" />
+    
+    <g transform="translate(42, 48)">
+      <rect x="-16" y="-20" width="32" height="10" rx="3" fill="#ffffff" stroke="#CC710B" stroke-width="1" />
+      <circle cx="-9" cy="-15" r="2" fill="#10B981" filter="url(#emeraldGlowMob4)" />
+      <line x1="-2" y1="-15" x2="8" y2="-15" stroke="#d1d5db" stroke-width="1.5" />
+
+      <rect x="-16" y="-6" width="32" height="10" rx="3" fill="#ffffff" stroke="#CC710B" stroke-width="1" />
+      <circle cx="-9" cy="-1" r="2" fill="#10B981" filter="url(#emeraldGlowMob4)" />
+      <line x1="-2" y1="-1" x2="8" y2="-1" stroke="#d1d5db" stroke-width="1.5" />
+
+      <rect x="-16" y="8" width="32" height="10" rx="3" fill="#ffffff" stroke="#CC710B" stroke-width="1" />
+      <circle cx="-9" cy="13" r="2" fill="#10B981" filter="url(#emeraldGlowMob4)" />
+      <line x1="-2" y1="13" x2="8" y2="13" stroke="#d1d5db" stroke-width="1.5" />
+    </g>
+
+    <g transform="translate(85, 18)">
+      <rect x="0" y="0" width="125" height="18" rx="9" fill="#10B981" fill-opacity="0.15" />
+      <text x="62.5" y="12" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#047857">● SINKRON &amp; VALID</text>
+
+      <text x="0" y="38" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#111827">Node Salinan 3 (Lokasi C)</text>
+      <text x="0" y="56" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#6b7280">Menolak jika ada salinan yang tidak cocok.</text>
+    </g>
+  </g>
+
+  <!-- ==================== BOTTOM SECURITY BANNER ==================== -->
+  <g transform="translate(20, 536)">
+    <rect x="0" y="0" width="380" height="92" rx="12" fill="#ffffff" stroke="#CC710B" stroke-opacity="0.35" stroke-width="1" />
+    
+    <circle cx="26" cy="26" r="12" fill="#CC710B" fill-opacity="0.2" />
+    <path d="M26 18 L32 21 V27 C32 31 26 34 26 34 C26 34 20 31 20 27 V21 Z" fill="#CC710B" />
+
+    <text x="46" y="24" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="700" fill="#111827">Jaminan Anti-Manipulasi Data</text>
+    <text x="46" y="44" font-family="Inter, -apple-system, sans-serif" font-size="11.5" font-weight="400" fill="#6b7280">Semua salinan wajib 100% cocok. Jika ada yang</text>
+    <text x="46" y="60" font-family="Inter, -apple-system, sans-serif" font-size="11.5" font-weight="400" fill="#6b7280">mencoba memalsukan data, seluruh node jaringan</text>
+    <text x="46" y="76" font-family="Inter, -apple-system, sans-serif" font-size="11.5" font-weight="600" fill="#8f4f08">secara otomatis memblokir perubahannya.</text>
+  </g>
+</svg>

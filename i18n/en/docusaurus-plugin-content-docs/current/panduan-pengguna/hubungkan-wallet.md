@@ -8,13 +8,13 @@ description: "Connecting or creating a wallet to receive rewards."
 
 A **wallet** is a digital purse for keeping rewards from loyalty programs. You only need one if you want to claim a reward. To simply check a product's authenticity, just follow [Scan the QR](./scan-qr.md).
 
-In the app, you can **connect an existing wallet** or **create a new one**.
+The Flagshiiip website describes a **Connect Wallet** step when using the reward feature. Follow the in-app instructions to connect a compatible wallet.
 
 ## Steps
 
-1. Open the wallet section in the app.
-2. Choose to connect an existing wallet or create a new one.
-3. Follow the on-screen instructions until your wallet appears in the app.
+1. Open the reward feature available for the product.
+2. Choose **Connect Wallet**.
+3. Follow the in-app instructions and make sure the connected wallet is yours.
 
 ## Keep your wallet safe
 
@@ -24,7 +24,3 @@ Never tell anyone your wallet's **seed phrase** (a secret set of words), includi
 
 - Write the seed phrase on paper and keep it somewhere safe.
 - Do not keep it in screenshots or messages.
-
-:::caution[Needs team verification]
-The supported wallet types and the exact steps in the app need to be confirmed. It is also unclear whether authenticity verification alone requires a wallet.
-:::

@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 800" width="100%" height="100%" role="img" aria-label="Hasil scan ponsel: terverifikasi atau tidak terverifikasi (versi ponsel)">
+  <defs>
+    <linearGradient id="bgGradMob3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E0F12" />
+      <stop offset="50%" stop-color="#14151A" />
+      <stop offset="100%" stop-color="#0B0C0E" />
+    </linearGradient>
+    <linearGradient id="cardGradMob3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1B22" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#111217" stop-opacity="0.96" />
+    </linearGradient>
+    <linearGradient id="amberGradMob3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#CC710B" />
+      <stop offset="100%" stop-color="#9A4E04" />
+    </linearGradient>
+    <linearGradient id="successCardMob3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E291F" />
+      <stop offset="100%" stop-color="#081410" />
+    </linearGradient>
+    <linearGradient id="warningCardMob3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D1417" />
+      <stop offset="100%" stop-color="#140B0C" />
+    </linearGradient>
+    <linearGradient id="emeraldGradMob3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadowGlowMob3" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+    <filter id="dotGlowMob3" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#CC710B" flood-opacity="0.6" />
+    </filter>
+    <filter id="successGlowMob3" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#10B981" flood-opacity="0.25" />
+    </filter>
+    <filter id="warningGlowMob3" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#EF4444" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="416" height="796" rx="20" fill="url(#bgGradMob3)" stroke="#26211A" stroke-width="1.5" />
+
+  <!-- Header Badge -->
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="180" height="24" rx="12" fill="#CC710B" fill-opacity="0.12" stroke="#CC710B" stroke-opacity="0.3" stroke-width="1" />
+    <circle cx="12" cy="12" r="3.5" fill="#CC710B" filter="url(#dotGlowMob3)" />
+    <text x="22" y="15.5" font-family="Inter, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#E68817" letter-spacing="0.8">LOGIKA PEMINDAIAN</text>
+    <text x="190" y="16.5" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="500" fill="#9CA3AF">2 Hasil Respon Scan</text>
+  </g>
+
+  <!-- ==================== TOP CARD: SCANNER ==================== -->
+  <g transform="translate(20, 56)">
+    <rect x="0" y="0" width="380" height="150" rx="16" fill="url(#cardGradMob3)" stroke="#CC710B" stroke-width="1.8" filter="url(#shadowGlowMob3)" />
+    <rect x="1" y="1" width="378" height="3" rx="1.5" fill="url(#amberGradMob3)" />
+
+    <!-- Scanner Illustration -->
+    <g transform="translate(68, 75)">
+      <rect x="-24" y="-36" width="48" height="72" rx="9" fill="#0D0E12" stroke="#4A3420" stroke-width="1.8" />
+      <rect x="-20" y="-30" width="40" height="60" rx="6" fill="#15171C" />
+      <!-- Mini QR inside phone -->
+      <rect x="-13" y="-13" width="26" height="26" rx="3" fill="#FFFFFF" />
+      <rect x="-10" y="-10" width="7" height="7" fill="#111827" />
+      <rect x="3" y="-10" width="7" height="7" fill="#111827" />
+      <rect x="-10" y="3" width="7" height="7" fill="#111827" />
+      <line x1="-16" y1="0" x2="16" y2="0" stroke="#CC710B" stroke-width="2" />
+    </g>
+
+    <!-- Info -->
+    <g transform="translate(125, 32)">
+      <rect x="0" y="0" width="140" height="18" rx="9" fill="#CC710B" fill-opacity="0.15" stroke="#CC710B" stroke-opacity="0.4" stroke-width="1" />
+      <text x="70" y="12.5" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="9" font-weight="700" fill="#E68817">VERIFIKASI REAL-TIME</text>
+
+      <text x="0" y="42" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Scan Stiker QR</text>
+      <text x="0" y="66" font-family="Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#9CA3AF">Kamera membaca kode unik pada</text>
+      <text x="0" y="86" font-family="Inter, -apple-system, sans-serif" font-size="12.5" font-weight="400" fill="#9CA3AF">stiker fisik kemasan Flagshiiip.</text>
+    </g>
+  </g>
+
+  <!-- Branching Arrows -->
+  <g transform="translate(210, 214)">
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#10B981" stroke-width="2.5" />
+    <polygon points="0,22 -4,14 4,14" fill="#10B981" />
+    <circle cx="0" cy="8" r="2.5" fill="#34D399" />
+  </g>
+
+  <!-- ==================== CARD 1: TERVERIFIKASI ==================== -->
+  <g transform="translate(20, 244)">
+    <rect x="0" y="0" width="380" height="236" rx="16" fill="url(#successCardMob3)" stroke="#10B981" stroke-width="1.8" filter="url(#successGlowMob3)" />
+    
+    <!-- Shield Icon & Badge Row -->
+    <g transform="translate(18, 16)">
+      <circle cx="16" cy="16" r="16" fill="#064E3B" stroke="#10B981" stroke-width="1.5" />
+      <path d="M16 6 L25 10 V17 C25 24 16 28 16 28 C16 28 7 24 7 17 V10 Z" fill="#047857" />
+      <path d="M12 17 L15 20 L21 14" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+
+      <rect x="42" y="6" width="165" height="20" rx="10" fill="#10B981" fill-opacity="0.2" stroke="#10B981" stroke-width="1" />
+      <text x="124" y="19.5" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#34D399">✓ 100% TERVERIFIKASI ASLI</text>
+    </g>
+
+    <text x="20" y="78" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF">Produk Terbukti Asli &amp; Resmi</text>
+
+    <!-- Bullets -->
+    <g transform="translate(20, 94)">
+      <circle cx="5" cy="10" r="3" fill="#34D399" />
+      <text x="16" y="14" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#D1FAE5">Sertifikat kepemilikan digital resmi</text>
+      <text x="16" y="32" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#D1FAE5">tercatat di blockchain Polygon.</text>
+
+      <circle cx="5" cy="54" r="3" fill="#34D399" />
+      <text x="16" y="58" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#D1FAE5">Kemasan pertama kali dibuka, data</text>
+      <text x="16" y="76" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#D1FAE5">produsen &amp; batch tervalidasi.</text>
+
+      <circle cx="5" cy="98" r="3" fill="#34D399" />
+      <text x="16" y="102" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#34D399">Anda berhak klaim reward FTN Token!</text>
+    </g>
+  </g>
+
+  <!-- Arrow down to Card 2 -->
+  <g transform="translate(210, 488)">
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#EF4444" stroke-width="2.5" />
+    <polygon points="0,22 -4,14 4,14" fill="#EF4444" />
+    <circle cx="0" cy="8" r="2.5" fill="#F87171" />
+  </g>
+
+  <!-- ==================== CARD 2: TIDAK TERVERIFIKASI ==================== -->
+  <g transform="translate(20, 518)">
+    <rect x="0" y="0" width="380" height="246" rx="16" fill="url(#warningCardMob3)" stroke="#EF4444" stroke-width="1.8" filter="url(#warningGlowMob3)" />
+    
+    <!-- Warning Icon & Badge Row -->
+    <g transform="translate(18, 16)">
+      <circle cx="16" cy="16" r="16" fill="#450A0A" stroke="#EF4444" stroke-width="1.5" />
+      <polygon points="16,6 26,24 6,24" fill="#B91C1C" />
+      <line x1="16" y1="12" x2="16" y2="18" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" />
+      <circle cx="16" cy="21.5" r="1.2" fill="#FFFFFF" />
+
+      <rect x="42" y="6" width="180" height="20" rx="10" fill="#EF4444" fill-opacity="0.2" stroke="#EF4444" stroke-width="1" />
+      <text x="132" y="19.5" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="10" font-weight="700" fill="#F87171">⚠ PERINGATAN / TIDAK VALID</text>
+    </g>
+
+    <text x="20" y="78" font-family="Inter, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">Kode Tidak Dikenali / Bekas</text>
+
+    <!-- Bullets -->
+    <g transform="translate(20, 94)">
+      <circle cx="5" cy="10" r="3" fill="#F87171" />
+      <text x="16" y="14" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#FEE2E2">QR tidak terdaftar di sistem atau kode</text>
+      <text x="16" y="32" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#FEE2E2">telah dipindai oleh pihak lain sebelumnya.</text>
+
+      <circle cx="5" cy="54" r="3" fill="#F87171" />
+      <text x="16" y="58" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#FEE2E2">Indikasi barang tiruan, palsu, atau daur</text>
+      <text x="16" y="76" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="400" fill="#FEE2E2">ulang kemasan tanpa izin resmi.</text>
+
+      <circle cx="5" cy="98" r="3" fill="#F87171" />
+      <text x="16" y="102" font-family="Inter, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#F87171">Segera laporkan kepada penjual / brand!</text>
+    </g>
+  </g>
+</svg>
