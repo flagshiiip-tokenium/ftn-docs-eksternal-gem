@@ -16,7 +16,7 @@ const config = {
   baseUrl: '/',
 
   // Isi saat repo GitHub sudah ada
-  organizationName: 'Chrollovisible',
+  organizationName: 'flagshiiip',
   projectName: 'ftn-docs-eksternal-gem',
 
   onBrokenLinks: 'throw',
