@@ -127,7 +127,7 @@ const config = {
             title: 'Kebijakan & Keamanan',
             items: [
               {
-                label: 'Teknologi Blockchain',
+                label: 'Teknologi Blockchain Tes',
                 to: '/docs/teknologi/blockchain',
               },
               {
